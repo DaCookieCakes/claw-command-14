@@ -23,8 +23,8 @@ public sealed class NsfwDisclaimerSystem : EntitySystem
     private async void OnConnected(object? sender, NetChannelArgs e)
     {
         // Ignore localhost unless the specified debug cvar is set
-        //if (IPAddress.IsLoopback(e.Channel.RemoteEndPoint.Address) && _cfg.GetCVar(CCVars.RulesExemptLocal))
-        //    return;
+        if (IPAddress.IsLoopback(e.Channel.RemoteEndPoint.Address) && _cfg.GetCVar(CCVars.RulesExemptLocal))
+            return;
 
         var message = new ShowNsfwPopupDisclaimerMessage();
         RaiseNetworkEvent(message, e.Channel);
