@@ -1,0 +1,7 @@
+- type: species
+  id: CC14SpeciesFelinid
+  name: cc-species-name-felinid
+  roundStart: true
+  prototype: CC14MobFelinid
+  dollPrototype: CC14AppearanceFelinid
+  skinColoration: HumanToned

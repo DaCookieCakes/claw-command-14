@@ -1,0 +1,7 @@
+- type: speechVerb
+  id: CC14SpeechFelinid
+  name: cc-chat-speech-verb-name-felinid
+  speechVerbStrings:
+  - cc-chat-speech-verb-felinid-1
+  - cc-chat-speech-verb-felinid-2
+  - cc-chat-speech-verb-felinid-3
