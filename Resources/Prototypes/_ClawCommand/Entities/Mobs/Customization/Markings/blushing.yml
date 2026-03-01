@@ -1,0 +1,15 @@
+- type: marking
+  id: CC14BlushCheeks
+  bodyPart: Head
+  groupWhitelist: [ Human, Reptilian, CC14MarkingsFelinid ]
+  sprites:
+  - sprite: _ClawCommand/Mobs/Customization/face.rsi
+    state: blush
+
+- type: marking
+  id: CC14BlushLong
+  bodyPart: Head
+  groupWhitelist: [ Human, Reptilian, CC14MarkingsFelinid ]
+  sprites:
+  - sprite: _ClawCommand/Mobs/Customization/face.rsi
+    state: blush_long

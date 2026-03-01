@@ -1,0 +1,48 @@
+- type: marking
+  id: CC14CatEars
+  bodyPart: HeadTop
+  groupWhitelist: [ CC14MarkingsFelinid ]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+    layers:
+      ears_cat_outer:
+        type:
+          !type:CategoryColoring
+          category: Hair
+        fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+      ears_cat_inner:
+        type:
+          !type:SimpleColoring
+            color: "#FFFFFF"
+  sprites:
+  - sprite: _ClawCommand/Mobs/Customization/cat_parts.rsi
+    state: ears_cat_outer
+  - sprite: _ClawCommand/Mobs/Customization/cat_parts.rsi
+    state: ears_cat_inner
+
+- type: marking
+  id: CC14CatTail
+  bodyPart: Tail
+  groupWhitelist: [ CC14MarkingsFelinid ]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+          category: Hair
+      fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
+  sprites:
+  - sprite: _ClawCommand/Mobs/Customization/cat_parts.rsi
+    state: tail_cat
