@@ -7,6 +7,7 @@
   - Defusal
   - CriminalRecords
   - SpaceLaw
+  - SecurityWeapons
 
 - type: guideEntry
   id: Forensics
@@ -34,3 +35,8 @@
   id: SpaceLawCrimeList
   name: guide-entry-rules-sl-crime-list
   text: "/ServerInfo/Guidebook/ServerRules/SpaceLaw/SLCrimeList.xml"
+
+- type: guideEntry
+  id: SecurityWeapons
+  name: guide-entry-loadout-info-security-weapons
+  text: "/ServerInfo/_ClawCommand/Guidebook/Security/SecurityWeapons.xml"
