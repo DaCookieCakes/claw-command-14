@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformSkirtBase
+  id: ClothingUniformJumpskirtClawCommandOfficer
+  name: claw command officer jumpskirt
+  description: A short-sleeved grey and red-pink jumpskirt, made out of a sturdy material. Claw Command's finest standard issue.
+  components:
+  - type: Sprite
+    sprite: _ClawCommand/Clothing/Uniforms/Jumpskirt/clawcommand_officer.rsi
+  - type: Clothing
+    sprite: _ClawCommand/Clothing/Uniforms/Jumpskirt/clawcommand_officer.rsi

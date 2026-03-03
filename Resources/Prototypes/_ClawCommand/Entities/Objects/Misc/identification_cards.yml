@@ -1,0 +1,16 @@
+- type: entity
+  parent: IDCardStandard
+  id: ClawCommandIDCard
+  name: claw command officer ID card
+  components:
+  - type: Sprite
+    sprite: _ClawCommand/Objects/Misc/id_cards.rsi
+    state: "clawcommand"
+  - type: Item
+    heldPrefix:
+  - type: PresetIdCard
+    job: ClawCommandOfficer
+  - type: Access
+    tags:
+    - CentralCommand
+    - ClawCommandOfficer

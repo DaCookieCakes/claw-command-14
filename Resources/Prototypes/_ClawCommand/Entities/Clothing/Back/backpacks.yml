@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpack
+  id: ClothingBackpackClawCommand
+  name: claw command backpack
+  description: A very protective backpack, smells like fur.
+  components:
+  - type: Sprite
+    sprite: _ClawCommand/Clothing/Back/Backpacks/clawcommand.rsi

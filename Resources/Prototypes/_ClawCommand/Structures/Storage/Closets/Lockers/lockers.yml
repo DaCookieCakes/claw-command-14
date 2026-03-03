@@ -1,0 +1,14 @@
+- type: entity
+  id: LockerClawCommandOfficer
+  name: claw command officer locker
+  parent: LockerBaseSecure
+  components:
+  - type: Appearance
+  - type: Sprite
+    sprite: _ClawCommand/Structures/Storage/closet.rsi
+  - type: AccessReader
+    access: [["ClawCommandOfficer"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: cco
+    stateDoorOpen: cco_open
+    stateDoorClosed: cco_door

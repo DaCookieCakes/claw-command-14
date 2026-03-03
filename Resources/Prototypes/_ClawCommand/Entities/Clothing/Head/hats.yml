@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCowboyClawCommand
+  name: claw command cowboy hat
+  description: Sheriff's back in town, plebs
+  components:
+  - type: Sprite
+    sprite: _ClawCommand/Clothing/Head/Hats/cowboyhatcco.rsi
+  - type: Clothing
+    sprite: _ClawCommand/Clothing/Head/Hats/cowboyhatcco.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
