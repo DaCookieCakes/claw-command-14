@@ -1,3 +1,7 @@
 - type: metabolizerType
   id: CC14MetabolizerFelinid
   name: cc-metabolizer-type-felinid
+
+- type: metabolizerType
+  id: CC14MetabolizerFeroxi
+  name: cc-metabolizer-type-feroxi

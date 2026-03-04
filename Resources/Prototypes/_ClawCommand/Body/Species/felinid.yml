@@ -43,7 +43,7 @@
       limit: 1
       required: false
     enum.HumanoidVisualLayers.Tail:
-      limit: 1
+      limit: 6
       required: true
       default: [ CC14CatTail ]
 
@@ -123,7 +123,7 @@
       path: /Audio/Effects/bite.ogg
     damage:
       types:
-        Piercing: 5
+        Piercing: 4
   - type: JumpAbility
     action: ActionVulpkaninGravityJump
     canCollide: true

@@ -5,3 +5,11 @@
   prototype: CC14MobFelinid
   dollPrototype: CC14AppearanceFelinid
   skinColoration: HumanToned
+
+- type: species
+  id: CC14SpeciesFeroxi
+  name: cc-species-name-feroxi
+  roundStart: true
+  prototype: CC14MobFeroxi
+  dollPrototype: CC14AppearanceFeroxi
+  skinColoration: Hues

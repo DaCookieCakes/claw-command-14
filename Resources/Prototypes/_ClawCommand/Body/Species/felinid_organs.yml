@@ -3,7 +3,7 @@
   parent: OrganBase
   id: CC14OrganFelinidBase
   abstract: true
-  suffix: felinid
+  suffix: Claw Command, Felinid
 
 - type: entity
   id: CC14OrganFelinidMetabolizer
@@ -120,6 +120,7 @@
       tags:
       - Meat
       - Vegetable
+      - Pill
       - CC14TagNutribrick
 
 - type: entity

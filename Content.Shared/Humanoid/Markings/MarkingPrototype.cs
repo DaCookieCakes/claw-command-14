@@ -36,6 +36,20 @@ namespace Content.Shared.Humanoid.Markings
         [DataField("sprites", required: true)]
         public List<SpriteSpecifier> Sprites { get; private set; } = default!;
 
+        /// <summary>
+        ///     CLAW COMMAND 14
+        ///     The higher the number is what layer it appears on. Lower is below other parts.
+        /// </summary>
+        [DataField]
+        public int RenderPriority { get; private set; } = 0;
+
+        /// <summary>
+        ///     CLAW COMMAND 14
+        ///     Ensures that a parent is required and present, if any.
+        /// </summary>
+        [DataField]
+        public ProtoId<MarkingPrototype>? Requires { get; private set; }
+
         public Marking AsMarking()
         {
             return new Marking(ID, Sprites.Count);

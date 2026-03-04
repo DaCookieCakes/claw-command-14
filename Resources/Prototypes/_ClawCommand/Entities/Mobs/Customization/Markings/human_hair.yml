@@ -1,7 +1,0 @@
-- type: marking
-  id: HairBald
-  bodyPart: Hair
-  sprites:
-    - sprite: Mobs/Customization/human_hair.rsi
-      state: bald
-

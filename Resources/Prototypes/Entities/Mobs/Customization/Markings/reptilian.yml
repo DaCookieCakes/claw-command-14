@@ -157,7 +157,7 @@
 - type: marking
   id: LizardTailAquatic
   bodyPart: Tail
-  groupWhitelist: [Reptilian]
+  groupWhitelist: [ Reptilian ]
   sprites:
   - sprite: Mobs/Customization/reptilian_parts.rsi
     state: tail_aquatic

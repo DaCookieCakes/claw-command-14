@@ -1,6 +1,0 @@
-- type: marking
-  id: FacialHairShaved
-  bodyPart: FacialHair
-  sprites:
-    - sprite: Mobs/Customization/human_facial_hair.rsi
-      state: shaved

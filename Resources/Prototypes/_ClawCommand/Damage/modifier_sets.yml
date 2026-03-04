@@ -5,3 +5,11 @@
     Slash: 1.15
     Piercing: 1.15
     Poison: 0.8
+
+- type: damageModifierSet
+  id: CC14ModifierSetFeroxi
+  coefficients:
+    Blunt: 0.85
+    Piercing: 0.85
+    Shock: 1.5
+    Cold: 0.75

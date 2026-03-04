@@ -47,7 +47,7 @@
       - !type:Oxygenate
         conditions:
         - !type:MetabolizerTypeCondition
-          type: [ Human, Animal, Rat, Plant, Arachnid, Moth, CC14MetabolizerFelinid ] # CC14 - Added Felinid
+          type: [ Human, Animal, Rat, Plant, Arachnid, Moth, CC14MetabolizerFelinid, CC14MetabolizerFeroxi ] # CC14 - Added Felinid and Feroxi
       # Convert Oxygen into CO2.
       - !type:ModifyLungGas
         conditions:

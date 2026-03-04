@@ -135,12 +135,24 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
 
     private IEnumerable<Marking> AllMarkings(Entity<VisualOrganMarkingsComponent> ent)
     {
+        // CLAW COMMAND 14 - Sort markings by a new layering system. This was simple enough. - Cookie
+        var allMarkings = ent.Comp.Markings.Values
+        .SelectMany(m => m)
+        .OrderBy(m => _marking.TryGetMarking(m, out var proto) ? proto.RenderPriority : 0);
+
+        /*
         foreach (var markings in ent.Comp.Markings.Values)
         {
             foreach (var marking in markings)
             {
                 yield return marking;
             }
+        }
+        */
+
+        foreach (var marking in allMarkings)
+        {
+            yield return marking;
         }
 
         var censorNudity = _cfg.GetCVar(CCVars.AccessibilityClientCensorNudity) || _cfg.GetCVar(CCVars.AccessibilityServerCensorNudity);
@@ -167,6 +179,7 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
         }
     }
 
+    /*
     private void ApplyMarkings(Entity<VisualOrganMarkingsComponent> ent, EntityUid target)
     {
         var applied = new List<Marking>();
@@ -201,6 +214,51 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
                     _sprite.LayerSetColor(target, layerId, Color.White);
             }
 
+            applied.Add(marking);
+        }
+        ent.Comp.AppliedMarkings = applied;
+    }
+    */
+
+    // CLAW COMMAND 14 - Markings replacement system
+    private void ApplyMarkings(Entity<VisualOrganMarkingsComponent> ent, EntityUid target)
+    {
+        var applied = new List<Marking>();
+        var layerOffsets = new Dictionary<HumanoidVisualLayers, int>();
+        foreach (var marking in AllMarkings(ent))
+        {
+            if (!_marking.TryGetMarking(marking, out var proto))
+                continue;
+
+            if (!_sprite.LayerMapTryGet(target, proto.BodyPart, out var index, true))
+                continue;
+
+            var offset = layerOffsets.GetValueOrDefault(proto.BodyPart, 0);
+
+            for (var i = 0; i < proto.Sprites.Count; i++)
+            {
+                var sprite = proto.Sprites[i];
+
+                DebugTools.Assert(sprite is SpriteSpecifier.Rsi);
+                if (sprite is not SpriteSpecifier.Rsi rsi)
+                    continue;
+
+                var layerId = $"{proto.ID}-{rsi.RsiState}";
+
+                if (!_sprite.LayerMapTryGet(target, layerId, out _, false))
+                {
+                    var layer = _sprite.AddLayer(target, sprite, index + offset + i + 1);
+                    _sprite.LayerMapSet(target, layerId, layer);
+                    _sprite.LayerSetSprite(target, layerId, rsi);
+                }
+
+                if (marking.MarkingColors is not null && i < marking.MarkingColors.Count)
+                    _sprite.LayerSetColor(target, layerId, marking.MarkingColors[i]);
+                else
+                    _sprite.LayerSetColor(target, layerId, Color.White);
+            }
+
+            layerOffsets[proto.BodyPart] = offset + proto.Sprites.Count;
             applied.Add(marking);
         }
         ent.Comp.AppliedMarkings = applied;
