@@ -56,6 +56,8 @@
   color: "#334E6D"
   roles:
   - Captain
+  - ClawCommandOfficer
+  - ClawCommandMaid
   - ChiefEngineer
   - ChiefMedicalOfficer
   - HeadOfPersonnel

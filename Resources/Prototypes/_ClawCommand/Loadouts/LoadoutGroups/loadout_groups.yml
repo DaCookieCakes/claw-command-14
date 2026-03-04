@@ -1,0 +1,44 @@
+- type: loadoutGroup
+  id: ClawCommandOfficerOuterClothing
+  name: loadout-group-security-outerclothing
+  loadouts:
+  - ClothingClawCommandArmourVest
+  - ArmorVestSlim
+  - SecurityOfficerWintercoat
+  - ClothingClawCommandArmoredCowboyJacket
+  - ClothingClawCommandArmoredJacket
+
+- type: loadoutGroup
+  id: CCOPDA
+  name: loadout-group-security-id
+  loadouts:
+  - ClawCommandPDA
+
+- type: loadoutGroup
+  id: CCMPDA
+  name: loadout-group-security-id
+  loadouts:
+  - ClawCommandMaidPDA
+
+- type: loadoutGroup
+  id: ClawCommandOfficerJumpsuit
+  name: loadout-group-security-jumpsuit
+  loadouts:
+  - ClothingUniformJumpsuitClawCommandOfficer
+  - ClothingUniformJumpskirtClawCommandOfficer
+
+- type: loadoutGroup
+  id: ClawCommandMaidJumpsuit
+  name: loadout-group-security-jumpsuit
+  loadouts:
+  - ClothingUniformJumpskirtJanimaidmini
+  - ClothingUniformJumpskirtJanimaid
+  - ClothingUniformJumpskirtTacticalMaid
+
+- type: loadoutGroup
+  id: ClawCommandBackpack
+  name: loadout-group-security-backpack
+  loadouts:
+  - ClothingBackpackClawCommand
+  - ClothingBackpackSatchelClawCommand
+  - ClothingBackpackDuffelClawCommand
