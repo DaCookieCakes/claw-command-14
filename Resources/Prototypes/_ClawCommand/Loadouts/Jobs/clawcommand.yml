@@ -1,0 +1,64 @@
+
+# Outerclothing
+- type: loadout
+  id: ClothingClawCommandArmourVest
+  equipment:
+    outerClothing: ClothingClawCommandArmourVest
+- type: loadout
+  id: ClothingClawCommandArmoredCowboyJacket
+  equipment:
+    outerClothing: ClothingClawCommandArmoredCowboyJacket
+- type: loadout
+  id: ClothingClawCommandArmoredJacket
+  equipment:
+    outerClothing: ClothingClawCommandArmoredJacket
+
+# PDA
+- type: loadout
+  id: ClawCommandOfficerPDA
+  equipment:
+    id: ClawCommandOfficerPDA
+- type: loadout
+  id: ClawCommandMaidPDA
+  equipment:
+    id: ClawCommandMaidPDA
+
+# Jumpsuit
+- type: loadout
+  id: ClothingUniformJumpsuitClawCommandOfficer
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitClawCommandOfficer
+
+- type: loadout
+  id: ClothingUniformJumpskirtClawCommandOfficer
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtClawCommandOfficer
+
+- type: loadout
+  id: ClothingUniformJumpskirtJanimaidmini
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtJanimaidmini
+- type: loadout
+  id: ClothingUniformJumpskirtJanimaid
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtJanimaid
+- type: loadout
+  id: ClothingUniformJumpskirtTacticalMaid
+  equipment:
+    jumpsuit: ClothingUniformJumpskirtTacticalMaid
+
+# Back
+- type: loadout
+  id: ClothingBackpackClawCommand
+  equipment:
+    back: ClothingBackpackClawCommand
+
+- type: loadout
+  id: ClothingBackpackSatchelClawCommand
+  equipment:
+    back: ClothingBackpackSatchelClawCommand
+
+- type: loadout
+  id: ClothingBackpackDuffelClawCommand
+  equipment:
+    back: ClothingBackpackDuffelClawCommand

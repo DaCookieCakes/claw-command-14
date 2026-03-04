@@ -1,13 +1,12 @@
 - type: roleLoadout
   id: JobClawCommandOfficer
   groups:
-  - SecurityHead
+  - ClawCommandHead
   - ClawCommandOfficerJumpsuit
   - ClawCommandBackpack
   - ClawCommandOfficerOuterClothing
   - SecurityShoes
   - CCOPDA
-  - SecurityBelt
   - SurvivalSecurity
   - Trinkets
   - SecurityJobTrinkets
@@ -16,13 +15,12 @@
 - type: roleLoadout
   id: JobClawCommandMaid
   groups:
-  - SecurityHead
+  - ClawCommandHead
   - ClawCommandMaidJumpsuit
   - ClawCommandBackpack
   - ClawCommandOfficerOuterClothing
   - SecurityShoes
   - CCMPDA
-  - SecurityBelt
   - SurvivalSecurity
   - Trinkets
   - SecurityJobTrinkets
