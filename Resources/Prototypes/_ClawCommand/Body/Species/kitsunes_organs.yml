@@ -1,0 +1,132 @@
+
+- type: entity
+  parent: OrganBase
+  id: CC14OrganKitsune
+  abstract: true
+  suffix: Claw Command, Kitsune
+
+- type: entity
+  id: CC14OrganKitsuneMetabolizer
+  abstract: true
+  components:
+  - type: Metabolizer
+    metabolizerTypes: [ CC14MetabolizerKitsune ]
+
+- type: entity
+  parent: CC14OrganKitsune
+  id: CC14OrganKitsuneInternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/organs.rsi
+
+- type: entity
+  parent: CC14OrganKitsune
+  id: CC14OrganKitsuneExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: Mobs/Species/Human/parts.rsi
+  - type: VisualOrganMarkings
+    layers:
+    - enum.HumanoidVisualLayers.Special
+    markingData:
+      group: CC14MarkingsKitsune
+
+- type: entity
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, CC14OrganKitsuneExternal ]
+  id: CC14OrganKitsuneTorso
+  components:
+  - type: VisualOrganMarkings
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Tail
+    initiallyHiddenLayers: # New to Claw Command
+    - enum.HumanoidVisualLayers.Special
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, CC14OrganKitsuneExternal ]
+  id: CC14OrganKitsuneHead
+  components:
+  - type: VisualOrganMarkings
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Hair
+    - enum.HumanoidVisualLayers.HeadTop
+
+- type: entity
+  parent: [ OrganBaseArmLeft, CC14OrganKitsuneExternal ]
+  id: CC14OrganKitsuneArmLeft
+
+- type: entity
+  parent: [ OrganBaseArmRight, CC14OrganKitsuneExternal ]
+  id: CC14OrganKitsuneArmRight
+
+- type: entity
+  parent: [ OrganBaseHandLeft, CC14OrganKitsuneExternal ]
+  id: CC14OrganKitsuneHandLeft
+
+- type: entity
+  parent: [ OrganBaseHandRight, CC14OrganKitsuneExternal ]
+  id: CC14OrganKitsuneHandRight
+
+- type: entity
+  parent: [ OrganBaseLegLeft, CC14OrganKitsuneExternal ]
+  id: CC14OrganKitsuneLegLeft
+
+- type: entity
+  parent: [ OrganBaseLegRight, CC14OrganKitsuneExternal ]
+  id: CC14OrganKitsuneLegRight
+
+- type: entity
+  parent: [ OrganBaseFootLeft, CC14OrganKitsuneExternal ]
+  id: CC14OrganKitsuneFootLeft
+
+- type: entity
+  parent: [ OrganBaseFootRight, CC14OrganKitsuneExternal ]
+  id: CC14OrganKitsuneFootRight
+
+- type: entity
+  parent: [ OrganBaseBrain, CC14OrganKitsuneInternal ]
+  id: CC14OrganKitsuneBrain
+
+- type: entity
+  parent: [ OrganBaseEyes, CC14OrganKitsuneInternal, CC14OrganKitsuneExternal ]
+  id: CC14OrganKitsuneEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: Mobs/Customization/eyes.rsi
+
+- type: entity
+  parent: [ OrganBaseTongue, CC14OrganKitsuneInternal ]
+  id: CC14OrganKitsuneTongue
+
+- type: entity
+  parent: [ OrganBaseAppendix, CC14OrganKitsuneInternal ]
+  id: CC14OrganKitsuneAppendix
+
+- type: entity
+  parent: [ OrganBaseEars, CC14OrganKitsuneInternal ]
+  id: CC14OrganKitsuneEars
+
+- type: entity
+  parent: [ OrganBaseLungs, CC14OrganKitsuneInternal, CC14OrganKitsuneMetabolizer ]
+  id: CC14OrganKitsuneLungs
+
+- type: entity
+  parent: [ OrganBaseHeart, CC14OrganKitsuneInternal, CC14OrganKitsuneMetabolizer ]
+  id: CC14OrganKitsuneHeart
+
+- type: entity
+  parent: [ OrganBaseStomach, CC14OrganKitsuneInternal, CC14OrganKitsuneMetabolizer ]
+  id: CC14OrganKitsuneStomach
+
+- type: entity
+  parent: [ OrganBaseLiver, CC14OrganKitsuneInternal, CC14OrganKitsuneMetabolizer ]
+  id: CC14OrganKitsuneLiver
+
+- type: entity
+  parent: [ OrganBaseKidneys, CC14OrganKitsuneInternal, CC14OrganKitsuneMetabolizer ]
+  id: CC14OrganKitsuneKidneys

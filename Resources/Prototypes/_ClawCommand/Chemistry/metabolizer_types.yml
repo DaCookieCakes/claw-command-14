@@ -5,3 +5,7 @@
 - type: metabolizerType
   id: CC14MetabolizerFeroxi
   name: cc-metabolizer-type-feroxi
+
+- type: metabolizerType
+  id: CC14MetabolizerKitsune
+  name: cc-metabolizer-type-kitsune

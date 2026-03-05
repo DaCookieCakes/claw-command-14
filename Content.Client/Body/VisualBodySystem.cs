@@ -250,6 +250,9 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
                     var layer = _sprite.AddLayer(target, sprite, index + offset + i + 1);
                     _sprite.LayerMapSet(target, layerId, layer);
                     _sprite.LayerSetSprite(target, layerId, rsi);
+
+                    if (ent.Comp.InitiallyHiddenLayers.Contains(proto.BodyPart))
+                         _sprite.LayerSetVisible(target, layerId, false);
                 }
 
                 if (marking.MarkingColors is not null && i < marking.MarkingColors.Count)

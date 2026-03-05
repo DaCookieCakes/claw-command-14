@@ -50,6 +50,7 @@
 - type: entity
   parent: BaseSpeciesAppearance
   id: CC14AppearanceFelinid
+  suffix: Claw Command
   name: felinid appearance
   components:
   - type: Inventory
@@ -138,3 +139,10 @@
     damageModifierSet: CC14ModifierSetFelinid
   - type: ReplacementAccent
     accent: CC14AccentFelinid
+  - type: InteractionPopup
+    successChance: 1
+    interactSuccessString: petting-success-generic
+    interactFailureString: petting-failure-generic
+    interactSuccessSpawn: EffectHearts
+    interactSuccessSound:
+      path: /Audio/Animals/cat_meow.ogg

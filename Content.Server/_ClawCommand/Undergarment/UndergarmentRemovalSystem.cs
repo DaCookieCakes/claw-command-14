@@ -29,6 +29,15 @@ public sealed class UndergarmentRemovalSystem : EntitySystem
 
         SubscribeLocalEvent<UndergarmentRemovalComponent, GetVerbsEvent<ExamineVerb>>(OnExaminedEvent);
         SubscribeLocalEvent<UndergarmentRemovalComponent, UndergarmentDoAfterEvent>(OnDoAfter);
+        SubscribeLocalEvent<UndergarmentRemovalComponent, ComponentShutdown>(OnShutdown);
+    }
+
+    private void OnShutdown(EntityUid uid, UndergarmentRemovalComponent component, ComponentShutdown args)
+    {
+        if (component.Removed)
+            ToggleUndergarment(uid, component);
+
+        component.SavedMarkings.Clear();
     }
 
     private void OnDoAfter(EntityUid uid, UndergarmentRemovalComponent comp, UndergarmentDoAfterEvent args)
@@ -89,7 +98,7 @@ public sealed class UndergarmentRemovalSystem : EntitySystem
 
         if (comp.Removed)
         {
-            // Restore saved markings back into applied dict
+            // Restore saved markings back into the dict
             _popup.PopupEntity(Loc.GetString("cc-undergarments-apply"), target, target, PopupType.Large);
 
             foreach (var (organ, layers) in comp.SavedMarkings)

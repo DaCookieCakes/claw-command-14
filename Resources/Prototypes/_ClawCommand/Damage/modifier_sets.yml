@@ -1,7 +1,7 @@
 - type: damageModifierSet
   id: CC14ModifierSetFelinid
   coefficients:
-    Blunt: 1.15
+    Blunt: 0.85
     Slash: 1.15
     Piercing: 1.15
     Poison: 0.8
@@ -13,3 +13,13 @@
     Piercing: 0.85
     Shock: 1.5
     Cold: 0.75
+
+- type: damageModifierSet
+  id: CC14ModifierSetKitsune
+  coefficients:
+    Blunt: 1.20
+    Slash: 1.10
+    Piercing: 1.10
+    Heat: 0.85
+    Cold: 0.85
+    Radiation: 1.50
