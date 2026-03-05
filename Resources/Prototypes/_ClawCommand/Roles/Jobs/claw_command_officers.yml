@@ -24,12 +24,12 @@
   - Cryogenics
   - Maintenance
   - Atmospherics
-  - Justice
   - Medical
   - Research
   - Engineering
   - Command
   - CentralCommand
+  - CC14AccessClawCommandOfficer
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -37,9 +37,10 @@
 - type: startingGear
   id: ClawCommandOfficerGear
   equipment:
-    eyes: ClothingEyesGlassesSecurity
-    ears: ClothingHeadsetSecurity
+    eyes: ClothingEyesHudMedSec
+    ears: ClothingHeadsetAltSecurity
     pocket1: WeaponPistolMk58
+    id: CC14ClawCommandOfficerPDA
   storage:
     back:
     - Flash
@@ -60,7 +61,7 @@
     - !type:DepartmentTimeRequirement
       department: Medical
       time: 2h
-  startingGear: ClawCommandOfficerGear
+  startingGear: ClawCommandMaidGear
   icon: "JobIconClawCommandMaid"
   supervisors: job-supervisors-captain
   canBeAntag: false
@@ -81,6 +82,20 @@
   - Theatre
   - Cargo
   - Salvage
+  - CC14AccessClawCommandMaid
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: ClawCommandMaidGear
+  equipment:
+    eyes: ClothingEyesHudMedSec
+    ears: ClothingHeadsetCommand
+    #pocket1: WeaponPistolMk58
+    belt: CC14WeaponMeleeKatana
+    id: CC14ClawCommandMaidPDA
+  storage:
+    back:
+    - Flash
+    #- MagazinePistol

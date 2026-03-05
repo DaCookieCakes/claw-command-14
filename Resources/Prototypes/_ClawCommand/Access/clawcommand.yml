@@ -1,0 +1,7 @@
+- type: accessLevel
+  id: CC14AccessClawCommandOfficer
+  name: cc-id-card-access-level-claw-command-officer
+
+- type: accessLevel
+  id: CC14AccessClawCommandMaid
+  name: cc-id-card-access-level-claw-command-maid

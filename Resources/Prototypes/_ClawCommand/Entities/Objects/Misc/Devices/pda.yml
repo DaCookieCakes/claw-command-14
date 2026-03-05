@@ -1,35 +1,77 @@
 - type: entity
-  parent: ERTLeaderPDA
-  id: ClawCommandPDA
-  name: Claw Command Officer PDA
+  parent: BasePDA
+  id: CC14ClawCommandOfficerPDA
+  suffix: Claw Command
+  name: claw command officer PDA
   description: The red C of Claw Command is engraved on the front.
   components:
   - type: Pda
-    id: ClawCommandIDCard
-    state: pda-clawcommand
-  - type: Icon
-    sprite: _ClawCommand/Objects/Devices/pda.rsi
-    state: pda-clawcommand
+    id: CC14ClawCommandIDCard
+    penSlot:
+      startingItem: PenCap
+      priority: -1
+      whitelist:
+        tags:
+        - Write
   - type: Sprite
     sprite: _ClawCommand/Objects/Devices/pda.rsi
-    state: pda-clawcommand
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+      state: "pda"
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
+  - type: Icon
+    sprite: _ClawCommand/Objects/Devices/pda.rsi
+    state: pda
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda
   - type: PdaBorderColor
     borderColor: "#c53c5c"
 
 - type: entity
-  parent: ERTLeaderPDA
-  id: ClawCommandMaidPDA
-  name: Claw Command Maid PDA
+  parent: BasePDA
+  id: CC14ClawCommandMaidPDA
+  suffix: Claw Command
+  name: claw command maid PDA
   description: The red C of Claw Command is engraved on the front.
   components:
   - type: Pda
-    id: ClawCommandIDCard
-    state: pda
+    id: CC14ClawCommandMaidIDCard
+    penSlot:
+      startingItem: PenCap
+      priority: -1
+      whitelist:
+        tags:
+        - Write
+  - type: Sprite
+    sprite: _ClawCommand/Objects/Devices/pda.rsi
+    layers:
+    - map: [ "enum.PdaVisualLayers.Base" ]
+      state: "pda"
+    - state: "light_overlay"
+      map: [ "enum.PdaVisualLayers.Flashlight" ]
+      shader: "unshaded"
+      visible: false
+    - state: "id_overlay"
+      map: [ "enum.PdaVisualLayers.IdLight" ]
+      shader: "unshaded"
+      visible: false
   - type: Icon
     sprite: _ClawCommand/Objects/Devices/pda.rsi
     state: pda
-  - type: Sprite
-    sprite: _ClawCommand/Objects/Devices/pda.rsi
-    state: pda
+  - type: Appearance
+    appearanceDataInit:
+      enum.PdaVisuals.PdaType:
+        !type:String
+        pda
   - type: PdaBorderColor
     borderColor: "#3c94c5"

@@ -1,6 +1,7 @@
 - type: entity
   parent: ClothingBackpack
   id: ClothingBackpackClawCommand
+  suffix: Claw Command
   name: claw command backpack
   description: A very protective backpack, smells like fur.
   components:
