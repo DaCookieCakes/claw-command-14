@@ -1,0 +1,23 @@
+- type: entity
+  id: SpawnPointClawCommandOfficer
+  parent: SpawnPointJobBase
+  name: claw command officer
+  components:
+  - type: SpawnPoint
+    job_id: ClawCommandOfficer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: captain
+
+- type: entity
+  id: SpawnPointClawCommandMaid
+  parent: SpawnPointJobBase
+  name: claw command maid
+  components:
+  - type: SpawnPoint
+    job_id: ClawCommandMaid
+  - type: Sprite
+    layers:
+      - state: green
+      - state: captain

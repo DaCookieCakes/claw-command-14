@@ -1,0 +1,86 @@
+- type: job
+  id: ClawCommandOfficer
+  name: JobClawCommandOfficer
+  description: job-description-cco
+  playTimeTracker: JobClawCommandOfficer
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 2h
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 3h
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 2h
+  startingGear: ClawCommandOfficerGear
+  icon: "JobIconClawCommandOfficer"
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - External
+  - Cryogenics
+  - Maintenance
+  - Atmospherics
+  - Justice
+  - Medical
+  - Research
+  - Engineering
+  - Command
+  - CentralCommand
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+
+- type: startingGear
+  id: ClawCommandOfficerGear
+  equipment:
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetSecurity
+    pocket1: WeaponPistolMk58
+  storage:
+    back:
+    - Flash
+    - MagazinePistol
+
+- type: job
+  id: ClawCommandMaid
+  name: JobClawCommandMaid
+  description: job-description-ccm
+  playTimeTracker: JobClawCommandMaid
+  requirements:
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 3h
+    - !type:DepartmentTimeRequirement
+      department: Command
+      time: 3h
+    - !type:DepartmentTimeRequirement
+      department: Medical
+      time: 2h
+  startingGear: ClawCommandOfficerGear
+  icon: "JobIconClawCommandMaid"
+  supervisors: job-supervisors-captain
+  canBeAntag: false
+  access:
+  - Security
+  - Brig
+  - External
+  - Cryogenics
+  - Maintenance
+  - Service
+  - Janitor
+  - Medical
+  - Command
+  - CentralCommand
+  - Bar
+  - Kitchen
+  - Hydroponics
+  - Theatre
+  - Cargo
+  - Salvage
+  special:
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]

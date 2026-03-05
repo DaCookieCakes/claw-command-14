@@ -1,0 +1,8 @@
+- type: entity
+  parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelClawCommand
+  name: claw command satchel
+  description: A very protective satchel, smells like fur.
+  components:
+  - type: Sprite
+    sprite: _ClawCommand/Clothing/Back/Satchels/clawcommand.rsi

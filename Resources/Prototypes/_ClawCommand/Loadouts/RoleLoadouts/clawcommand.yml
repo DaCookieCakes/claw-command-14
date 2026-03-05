@@ -1,0 +1,27 @@
+- type: roleLoadout
+  id: JobClawCommandOfficer
+  groups:
+  - ClawCommandHead
+  - ClawCommandOfficerJumpsuit
+  - ClawCommandBackpack
+  - ClawCommandOfficerOuterClothing
+  - SecurityShoes
+  - CCOPDA
+  - SurvivalSecurity
+  - Trinkets
+  - SecurityJobTrinkets
+  - GroupSpeciesBreathToolSecurity
+
+- type: roleLoadout
+  id: JobClawCommandMaid
+  groups:
+  - ClawCommandHead
+  - ClawCommandMaidJumpsuit
+  - ClawCommandBackpack
+  - ClawCommandOfficerOuterClothing
+  - SecurityShoes
+  - CCMPDA
+  - SurvivalSecurity
+  - Trinkets
+  - SecurityJobTrinkets
+  - GroupSpeciesBreathToolSecurity
