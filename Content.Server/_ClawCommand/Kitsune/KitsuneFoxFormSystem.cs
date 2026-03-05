@@ -33,7 +33,8 @@ public sealed class KitsuneFoxFormSystem : EntitySystem
 
     private void OnShutdown(EntityUid uid, KitsuneFoxFormComponent comp, ComponentShutdown args)
     {
-        _polymorph.Revert(uid);
+        if (TryComp<PolymorphedEntityComponent>(uid, out _))
+            _polymorph.Revert(uid);
 
         _actions.RemoveAction(uid, comp.ActionEntity);
     }
