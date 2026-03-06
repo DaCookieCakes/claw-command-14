@@ -13,16 +13,6 @@
   equipment:
     outerClothing: ClothingClawCommandArmoredJacket
 
-# PDA
-- type: loadout
-  id: ClawCommandOfficerPDA
-  equipment:
-    id: ClawCommandOfficerPDA
-- type: loadout
-  id: ClawCommandMaidPDA
-  equipment:
-    id: ClawCommandMaidPDA
-
 # Jumpsuit
 - type: loadout
   id: ClothingUniformJumpsuitClawCommandOfficer

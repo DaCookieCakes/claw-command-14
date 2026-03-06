@@ -3,125 +3,125 @@
   name: guide-entry-standard-operating-procedures
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/StandardOperatingProcedures.xml"
   children:
-  - Company Policy
-  - Mutiny Guidelines
-  - Permits
-  - General Regulations
-  - Command Hierarchy
-  - Alert Procedure
-  - Epistemics SOP
-  - Engineering SOP
-  - Security SOP
-  - Brigging SOP
-  - Anomaly SOP
-  - Claw Command Officer SOP
+  - CC14GuideCompanyPolicy
+  - CC14GuideMutinyGuidelines
+  - CC14GuidePermits
+  - CC14GuideGeneralRegulations
+  - CC14GuideCommandHierarchy
+  - CC14GuideAlertProcedure
+  - CC14GuideEpistemicsSOP
+  - CC14GuideEngineeringSOP
+  - CC14GuideSecuritySOP
+  - CC14GuideBriggingSOP
+  - CC14GuideAnomalySOP
+  - CC14GuideClawCommandOfficerSOP
   filterEnabled: True
 
 - type: guideEntry
-  id: Company Policy
+  id: CC14GuideCompanyPolicy
   name: guide-entry-companypolicy
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/CompanyPolicy.xml"
-  defaultCollapsed: true
+  # defaultCollapsed: true
   children:
-  - Code of Conduct
-  - Self-Defence
-  - Conduct Unbecoming
-  - Appearance Standards
-  - Dangers from our Competitors
+  - CC14GuideCodeofConduct
+  - CC14GuideSelfDefense
+  - CC14GuideConductUnbecoming
+  - CC14GuideAppearanceStandards
+  - CC14GuideDangersFromOurCompetitors
   filterEnabled: True
 
 - type: guideEntry
-  id: Code of Conduct
+  id: CC14GuideCodeofConduct
   name: guide-entry-policy-codeofconduct
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/CodeofConduct.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: Self-Defence
+  id: CC14GuideSelfDefense
   name: guide-entry-policy-self-defence
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/SelfDefence.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: Conduct Unbecoming
+  id: CC14GuideConductUnbecoming
   name: guide-entry-policy-conductunbecoming
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/ConductUnbecoming.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: Appearance Standards
+  id: CC14GuideAppearanceStandards
   name: guide-entry-policy-appearancestandards
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/AppearanceStandards.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: Dangers from our Competitors
+  id: CC14GuideDangersFromOurCompetitors
   name: guide-entry-policy-dangersfromcompetitors
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/DangersfromCompetitors.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: Mutiny Guidelines
+  id: CC14GuideMutinyGuidelines
   name: guide-entry-mutinyguidelines
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/MutinyGuidelines.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: Permits
+  id: CC14GuidePermits
   name: guide-entry-permits
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/Permits.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: General Regulations
+  id: CC14GuideGeneralRegulations
   name: guide-entry-generalregulations
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/GeneralRegulations.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: Command Hierarchy
+  id: CC14GuideCommandHierarchy
   name: guide-entry-commandhierarchy
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/CommandHierarchy.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: Alert Procedure
+  id: CC14GuideAlertProcedure
   name: guide-entry-alertprocedure
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/AlertProcedure.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: Epistemics SOP
+  id: CC14GuideEpistemicsSOP
   name: guide-entry-epistemicsSOP
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/EpistemicsStandardOperatingProcedure.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: Engineering SOP
+  id: CC14GuideEngineeringSOP
   name: guide-entry-engineeringSOP
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/EngineeringStandardOperatingProcedure.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: Security SOP
+  id: CC14GuideSecuritySOP
   name: guide-entry-securitySOP
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/SecurityStandardOperatingProcedure.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: Brigging SOP
+  id: CC14GuideBriggingSOP
   name: guide-entry-briggingSOP
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/BriggingStandardOperatingProcedure.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: Anomaly SOP
+  id: CC14GuideAnomalySOP
   name: guide-entry-anomSOP
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/AnomalySOP.xml"
   filterEnabled: True
 
 - type: guideEntry
-  id: Claw Command Officer SOP
+  id: CC14GuideClawCommandOfficerSOP
   name: guide-entry-ccoSOP
   text: "/ServerInfo/_ClawCommand/Guidebook/SOP/ClawCommandOfficerStandardOperatingProcedure.xml"
   filterEnabled: True

@@ -1,16 +1,63 @@
 - type: entity
-  parent: IDCardStandard
-  id: ClawCommandIDCard
+  parent: [IDCardStandard, BaseGrandTheftContraband]
+  id: CC14ClawCommandIDCard
+  suffix: Claw Command
   name: claw command officer ID card
   components:
   - type: Sprite
     sprite: _ClawCommand/Objects/Misc/id_cards.rsi
-    state: "clawcommand"
+    layers:
+    - state: clawcommand-new
+    - state: stripe_top
+      color: "#d93daa"
+    - state: stripe_bottom
+      color: "#ad319d"
+    - sprite: _ClawCommand/Interface/Misc/job_icons.rsi
+      offset: -0.09375, 0.0625
+      state: clawcommandofficer
   - type: Item
-    heldPrefix:
+    heldPrefix: clawcommand
   - type: PresetIdCard
     job: ClawCommandOfficer
   - type: Access
     tags:
     - CentralCommand
-    - ClawCommandOfficer
+    #- ClawCommandOfficer
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - WhitelistChameleon
+    - WhitelistChameleonIdCard
+    - HighRiskItem
+
+- type: entity
+  parent: [IDCardStandard, BaseGrandTheftContraband]
+  id: CC14ClawCommandMaidIDCard
+  suffix: Claw Command
+  name: claw command officer ID card
+  components:
+  - type: Sprite
+    sprite: _ClawCommand/Objects/Misc/id_cards.rsi
+    layers:
+    - state: clawcommand-new
+    - state: stripe_top
+      color: "#d93daa"
+    - state: stripe_bottom
+      color: "#ad319d"
+    - sprite: _ClawCommand/Interface/Misc/job_icons.rsi
+      offset: -0.09375, 0.0625
+      state: clawcommandofficer
+  - type: Item
+    heldPrefix: clawcommand
+  - type: PresetIdCard
+    job: ClawCommandMaid
+  - type: Access
+    tags:
+    - CentralCommand
+    #- ClawCommandOfficer
+  - type: Tag
+    tags:
+    - DoorBumpOpener
+    - WhitelistChameleon
+    - WhitelistChameleonIdCard
+    - HighRiskItem

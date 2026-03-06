@@ -1,6 +1,7 @@
 - type: entity
   parent: [DrinkBottleGlassBaseFull]
-  id: DrinkClawtailBottleFull
+  id: CC14DrinkClawtailBottleFull
+  suffix: Claw Command, Clawtail
   name: claw command's special reserve
   description: "A potent triple-layer shot (red, gold, shades of gray) symbolizing the hierarchy of chaos: crew, command, catastrophe."
   components:
@@ -8,7 +9,7 @@
     solutions:
       drink:
         reagents:
-        - ReagentId: Clawtail
+        - ReagentId: CC14ReagentDrinkClawtail
           Quantity: 100
   - type: Label
     currentLabel: clawtail
@@ -18,15 +19,15 @@
 
 - type: entity
   parent: DrinkGlass
-  id: DrinkClawtailGlass
-  suffix: clawtail
+  id: CC14DrinkClawtailGlass
+  suffix: Claw Command, Clawtail
   components:
   - type: SolutionContainerManager
     solutions:
       drink:
         maxVol: 30
         reagents:
-        - ReagentId: Clawtail
+        - ReagentId: CC14ReagentDrinkClawtail
           Quantity: 30
   - type: Icon
     sprite: _ClawCommand/Objects/Consumable/Drinks/clawtail.rsi
