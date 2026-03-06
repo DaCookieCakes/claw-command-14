@@ -29,6 +29,13 @@ public sealed partial class VisualOrganMarkingsComponent : Component
     public HashSet<Enum> HideableLayers = new();
 
     /// <summary>
+    /// CLAW COMMAND 14
+    /// Layers that start hidden and only become visible when explicitly shown e.g. fox form
+    /// </summary>
+    [DataField, AutoNetworkedField]
+    public HashSet<Enum> InitiallyHiddenLayers = new();
+
+    /// <summary>
     /// A dictionary of layers to other layers that visually depend on them for hiding, e.g. SnoutCover depends on Snout
     /// </summary>
     [DataField, AutoNetworkedField]

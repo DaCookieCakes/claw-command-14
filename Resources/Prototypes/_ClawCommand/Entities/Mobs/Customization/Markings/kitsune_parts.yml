@@ -1,0 +1,148 @@
+# Ears
+- type: marking
+  id: CC14KitsuneEars
+  bodyPart: HeadTop
+  groupWhitelist: [ CC14MarkingsKitsune ]
+  coloring:
+    default:
+      type:
+        !type:CategoryColoring
+        category: Hair
+      fallbackTypes:
+      - !type:CategoryColoring
+        category: FacialHair
+      - !type:SkinColoring
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Kitsunes/ears.rsi
+    state: foxears
+
+# Ears
+- type: marking
+  id: CC14KitsuneEarsFluffy
+  bodyPart: HeadTop
+  groupWhitelist: [ CC14MarkingsKitsune ]
+  coloring:
+    layers:
+      kitsune_fluffy_ears:
+        type:
+          !type:CategoryColoring
+          category: Hair
+          fallbackTypes:
+          - !type:CategoryColoring
+            category: FacialHair
+          - !type:SkinColoring
+      kitsune_fluffy_fluff:
+        type:
+          !type:CategoryColoring
+          category: Hair
+          fallbackTypes:
+          - !type:CategoryColoring
+            category: FacialHair
+          - !type:SkinColoring
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Kitsunes/ears.rsi
+    state: kitsune_fluffy_ears
+  - sprite: _DeltaV/Mobs/Customization/Kitsunes/ears.rsi
+    state: kitsune_fluffy_fluff
+
+# Tails
+- type: marking
+  id: CC14KitsuneTail
+  bodyPart: Tail
+  groupWhitelist: [ CC14MarkingsKitsune ]
+  coloring:
+    layers:
+      kitsune_primary:
+        type:
+          !type:SimpleColoring
+          color: "#FFFFFF"
+      kitsune_secondary:
+        type:
+          !type:SimpleColoring
+          color: "#000000"
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Kitsunes/tails.rsi
+    state: kitsune_primary
+  - sprite: _DeltaV/Mobs/Customization/Kitsunes/tails.rsi
+    state: kitsune_secondary
+
+- type: marking
+  id: CC14KitsuneTailNine
+  bodyPart: Tail
+  groupWhitelist: [ CC14MarkingsKitsune ]
+  coloring:
+    layers:
+      foxninetailstone1:
+        type:
+          !type:SimpleColoring
+          color: "#FFFFFF"
+      foxninetailstone2:
+        type:
+          !type:SimpleColoring
+          color: "#000000"
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Kitsunes/tails.rsi
+    state: foxninetailstone1
+  - sprite: _DeltaV/Mobs/Customization/Kitsunes/tails.rsi
+    state: foxninetailstone2
+
+- type: marking
+  id: CC14KitsuneTailThree
+  bodyPart: Tail
+  groupWhitelist: [ CC14MarkingsKitsune ]
+  coloring:
+    layers:
+      foxthreetailstone1:
+        type:
+          !type:SimpleColoring
+          color: "#FFFFFF"
+      foxthreetailstone2:
+        type:
+          !type:SimpleColoring
+          color: "#000000"
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Kitsunes/tails.rsi
+    state: foxthreetailstone1
+  - sprite: _DeltaV/Mobs/Customization/Kitsunes/tails.rsi
+    state: foxthreetailstone2
+
+- type: marking
+  id: CC14KitsuneTailTwo
+  bodyPart: Tail
+  groupWhitelist: [ CC14MarkingsKitsune ]
+  coloring:
+    layers:
+      foxtwotailstone1:
+        type:
+          !type:SimpleColoring
+          color: "#FFFFFF"
+      foxtwotailstone2:
+        type:
+          !type:SimpleColoring
+          color: "#000000"
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Kitsunes/tails.rsi
+    state: foxtwotailstone1
+  - sprite: _DeltaV/Mobs/Customization/Kitsunes/tails.rsi
+    state: foxtwotailstone2
+
+# Special
+- type: marking
+  id: CC14KitsuneFox
+  bodyPart: Special
+  groupWhitelist: [ CC14MarkingsKitsune ]
+  coloring:
+    layers:
+      kitsune_fox_body:
+        type:
+          !type:SimpleColoring
+          color: "#FFFFFF"
+      kitsune_fox_innerear:
+        type:
+          !type:SimpleColoring
+          color: "#000000"
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Kitsunes/foxform.rsi
+    state: kitsune_fox_body
+  - sprite: _DeltaV/Mobs/Customization/Kitsunes/foxform.rsi
+    state: kitsune_fox_innerear

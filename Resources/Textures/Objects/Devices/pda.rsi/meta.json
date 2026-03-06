@@ -62,6 +62,9 @@
             "name": "pda-chemistry"
         },
         {
+            "name": "pda-clawcommand"
+        },
+        {
             "name": "pda-clear"
         },
         {

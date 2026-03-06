@@ -1,0 +1,148 @@
+- type: markingsGroup
+  parent: Undergarments
+  id: CC14MarkingsFelinid
+  limits:
+    enum.HumanoidVisualLayers.Hair:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.FacialHair:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.Chest:
+      limit: 2
+      required: false
+    enum.HumanoidVisualLayers.Snout:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.HeadTop:
+      limit: 1
+      required: true
+      default: [ CC14CatEars ]
+    enum.HumanoidVisualLayers.LArm:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RArm:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LHand:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RHand:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LLeg:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RLeg:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LFoot:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RFoot:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.Tail:
+      limit: 6
+      required: true
+      default: [ CC14CatTail ]
+
+- type: entity
+  parent: BaseSpeciesAppearance
+  id: CC14AppearanceFelinid
+  suffix: Claw Command
+  name: felinid appearance
+  components:
+  - type: Inventory
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
+  - type: InitialBody
+    organs:
+      Torso: CC14OrganFelinidTorso
+      Head: CC14OrganFelinidHead
+      ArmLeft: CC14OrganFelinidArmLeft
+      ArmRight: CC14OrganFelinidArmRight
+      HandRight: CC14OrganFelinidHandRight
+      HandLeft: CC14OrganFelinidHandLeft
+      LegLeft: CC14OrganFelinidLegLeft
+      LegRight: CC14OrganFelinidLegRight
+      FootLeft: CC14OrganFelinidFootLeft
+      FootRight: CC14OrganFelinidFootRight
+      Brain: CC14OrganFelinidBrain
+      Eyes: CC14OrganFelinidEyes
+      Tongue: CC14OrganFelinidTongue
+      Appendix: CC14OrganFelinidAppendix
+      Ears: CC14OrganFelinidEars
+      Lungs: CC14OrganFelinidLungs
+      Heart: CC14OrganFelinidHeart
+      Stomach: CC14OrganFelinidStomach
+      Liver: CC14OrganFelinidLiver
+      Kidneys: CC14OrganFelinidKidneys
+  - type: HumanoidProfile
+    species: CC14SpeciesFelinid
+  - type: ScaleVisuals
+    scale: 0.7, 0.7
+  - type: MovementSpeedModifier
+    baseSprintSpeed: 5.5
+    baseWalkSpeed: 3.5
+  # Commented out for now, we need to be able to escape bags!
+  #- type: Item
+  #  size: Large
+  #  shape:
+  #  - 0,0,3,4
+
+- type: entity
+  parent:
+  - CC14AppearanceFelinid
+  - BaseSpeciesMobOrganic
+  id: CC14MobFelinid
+  name: Urist McMowMow
+  suffix: Claw Command
+  components:
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatHuman
+      amount: 3
+  - type: Vocal
+    sounds:
+      Male: CC14UnisexFelinid
+      Female: CC14FemaleFelinid
+      Unsexed: CC14UnisexFelinid
+  - type: Speech
+    speechSounds: Cat
+    speechVerb: CC14SpeechFelinid
+    allowedEmotes: [ 'CatHisses', 'CatMeow' ]
+  - type: MeleeWeapon
+    altDisarm: false
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    damage:
+      types:
+        Piercing: 4
+  - type: JumpAbility
+    action: ActionVulpkaninGravityJump
+    canCollide: true
+    jumpDistance: 2
+    jumpSound:
+      path: /Audio/Weapons/punchmiss.ogg
+      params:
+        pitch: 1.33
+        volume: -5
+        variation: 0.05
+  - type: Damageable
+    damageModifierSet: CC14ModifierSetFelinid
+  - type: ReplacementAccent
+    accent: CC14AccentFelinid
+  - type: InteractionPopup
+    successChance: 1
+    interactSuccessString: petting-success-generic
+    interactFailureString: petting-failure-generic
+    interactSuccessSpawn: EffectHearts
+    interactSuccessSound:
+      path: /Audio/Animals/cat_meow.ogg

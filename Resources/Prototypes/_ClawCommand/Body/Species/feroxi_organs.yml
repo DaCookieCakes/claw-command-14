@@ -1,0 +1,136 @@
+# While the Feroxi sprites are from DeltaV, all of this code is ours.
+
+- type: entity
+  parent: OrganBase
+  id: CC14OrganFeroxi
+  abstract: true
+  suffix: Claw Command, Feroxi
+
+- type: entity
+  id: CC14OrganFeroxiMetabolizer
+  abstract: true
+  components:
+  - type: Metabolizer
+    metabolizerTypes: [ CC14MetabolizerFeroxi ]
+
+- type: entity
+  parent: CC14OrganFeroxi
+  id: CC14OrganFeroxiInternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/organs.rsi
+
+- type: entity
+  parent: CC14OrganFeroxi
+  id: CC14OrganFeroxiExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _DeltaV/Mobs/Species/Feroxi/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: _DeltaV/Mobs/Species/Feroxi/parts.rsi
+  - type: VisualOrganMarkings
+    markingData:
+      group: CC14MarkingsFeroxi
+
+- type: entity
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, CC14OrganFeroxiExternal ]
+  id: CC14OrganFeroxiTorso
+  components:
+  - type: VisualOrganMarkings
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Tail
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, CC14OrganFeroxiExternal ]
+  id: CC14OrganFeroxiHead
+  components:
+  - type: VisualOrganMarkings
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Hair
+
+- type: entity
+  parent: [ OrganBaseArmLeft, CC14OrganFeroxiExternal ]
+  id: CC14OrganFeroxiArmLeft
+
+- type: entity
+  parent: [ OrganBaseArmRight, CC14OrganFeroxiExternal ]
+  id: CC14OrganFeroxiArmRight
+
+- type: entity
+  parent: [ OrganBaseHandLeft, CC14OrganFeroxiExternal ]
+  id: CC14OrganFeroxiHandLeft
+
+- type: entity
+  parent: [ OrganBaseHandRight, CC14OrganFeroxiExternal ]
+  id: CC14OrganFeroxiHandRight
+
+- type: entity
+  parent: [ OrganBaseLegLeft, CC14OrganFeroxiExternal ]
+  id: CC14OrganFeroxiLegLeft
+
+- type: entity
+  parent: [ OrganBaseLegRight, CC14OrganFeroxiExternal ]
+  id: CC14OrganFeroxiLegRight
+
+- type: entity
+  parent: [ OrganBaseFootLeft, CC14OrganFeroxiExternal ]
+  id: CC14OrganFeroxiFootLeft
+
+- type: entity
+  parent: [ OrganBaseFootRight, CC14OrganFeroxiExternal ]
+  id: CC14OrganFeroxiFootRight
+
+- type: entity
+  parent: [ OrganBaseBrain, OrganSpriteHumanInternal, CC14OrganFeroxiInternal ]
+  id: CC14OrganFeroxiBrain
+
+- type: entity
+  parent: [ OrganBaseEyes, CC14OrganFeroxiInternal, CC14OrganFeroxiExternal ]
+  id: CC14OrganFeroxiEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: Mobs/Customization/eyes.rsi
+
+- type: entity
+  parent: [ OrganBaseTongue, CC14OrganFeroxiInternal ]
+  id: CC14OrganFeroxiTongue
+
+- type: entity
+  parent: [ OrganBaseAppendix, OrganSpriteHumanInternal, CC14OrganFeroxiInternal ]
+  id: CC14OrganFeroxiAppendix
+
+- type: entity
+  parent: [ OrganBaseEars, OrganSpriteHumanInternal, CC14OrganFeroxiInternal ]
+  id: CC14OrganFeroxiEars
+
+- type: entity
+  parent: [ OrganBaseLungs, CC14OrganFeroxiInternal, CC14OrganFeroxiMetabolizer ]
+  id: CC14OrganFeroxiGills
+
+- type: entity
+  parent: [ OrganBaseHeart, CC14OrganFeroxiInternal, CC14OrganFeroxiMetabolizer ]
+  id: CC14OrganFeroxiHeart
+
+- type: entity
+  parent: [ OrganBaseStomach, CC14OrganFeroxiInternal, CC14OrganFeroxiMetabolizer ]
+  id: CC14OrganFeroxiStomach
+  components:
+  - type: Stomach
+    specialDigestible:
+      tags:
+      - Meat
+      - Pill
+      - CC14TagNutribrick
+      - Crayon
+
+- type: entity
+  parent: [ OrganBaseLiver, OrganSpriteHumanInternal, CC14OrganFeroxiInternal, CC14OrganFeroxiMetabolizer ]
+  id: CC14OrganFeroxiLiver
+
+- type: entity
+  parent: [ OrganBaseKidneys, OrganSpriteHumanInternal, CC14OrganFeroxiInternal, CC14OrganFeroxiMetabolizer ]
+  id: CC14OrganFeroxiKidneys

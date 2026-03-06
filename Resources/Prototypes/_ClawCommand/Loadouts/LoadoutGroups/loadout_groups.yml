@@ -9,18 +9,6 @@
   - ClothingClawCommandArmoredJacket
 
 - type: loadoutGroup
-  id: CCOPDA
-  name: loadout-group-clawcommand-id
-  loadouts:
-  - ClawCommandPDA
-
-- type: loadoutGroup
-  id: CCMPDA
-  name: loadout-group-clawcommand-id
-  loadouts:
-  - ClawCommandMaidPDA
-
-- type: loadoutGroup
   id: ClawCommandOfficerJumpsuit
   name: loadout-group-clawcommand-jumpsuit
   loadouts:

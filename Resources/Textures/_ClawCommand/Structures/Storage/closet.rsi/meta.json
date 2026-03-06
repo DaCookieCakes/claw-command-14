@@ -26,6 +26,9 @@
             "name": "locked"
         },
         {
+            "name": "unlocked"
+        },
+        {
             "name": "welded"
         }
     ]

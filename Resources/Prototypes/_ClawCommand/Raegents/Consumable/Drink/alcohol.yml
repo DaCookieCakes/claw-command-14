@@ -1,10 +1,10 @@
 - type: reagent
-  id: Clawtail
+  id: CC14ReagentDrinkClawtail
   name: reagent-name-clawtail
   parent: BaseAlcohol
   desc: reagent-desc-clawtail
   physicalDesc: reagent-physical-desc-strong-smelling
-  flavor: clawtail
+  flavor: CC14FlavorClawtail
   color: "#ff006f"
   metamorphicSprite:
     sprite: _ClawCommand/Objects/Consumable/Drinks/clawtail.rsi
@@ -13,7 +13,7 @@
   metamorphicFillBaseName: fill-
   metamorphicChangeColor: false
   metabolisms:
-    Drink:
+    Digestion:
       effects:
       - !type:SatiateThirst
         factor: 2

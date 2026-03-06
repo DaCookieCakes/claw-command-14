@@ -1,13 +1,28 @@
 - type: entity
-  id: LockerClawCommandOfficerFilled
-  suffix: Filled
-  parent: LockerClawCommandOfficer
+  id: CC14LockerClawCommandOfficerFilled
+  suffix: Claw Command, Filled
+  parent: CC14LockerClawCommandOfficer
   components:
   - type: StorageFill
     contents:
     - id: Flash
-    #- id: ClothingEyesGlassesMedSec
+    - id: ClothingEyesHudMedSec
     # - id: PinpointerNuclear
     - id: ClothingHandsGlovesCombat
-    #- id: WeaponLeverChester
-    # - id: WeaponEnergyRevolver #
+    # - id: WeaponLeverChester
+    # - id: WeaponEnergyRevolver
+
+- type: entity
+  parent: CC14LockerClawCommandMaid
+  id: CC14LockerClawCommandMaidFilled
+  suffix: Claw Command, Filled
+  components:
+  - type: StorageFill
+    contents:
+    - id: Flash
+    - id: ClothingEyesHudMedSec
+    # - id: PinpointerNuclear
+    - id: ClothingHandsGlovesCombat
+    # - id: WeaponLeverChester
+    # - id: WeaponEnergyRevolver
+    - id: CC14WeaponMeleeKatana

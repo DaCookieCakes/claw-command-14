@@ -1,0 +1,10 @@
+- type: polymorph
+  id: CC14PolymorphKitsune
+  configuration:
+    entity: CC14MobKitsuneFox
+    transferName: true
+    transferHumanoidAppearance: false
+    inventory: Transfer
+    allowRepeatedMorphs: true
+    revertOnCrit: true
+    revertOnDeath: true

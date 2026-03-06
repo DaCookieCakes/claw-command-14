@@ -1,0 +1,179 @@
+# While the Feroxi sprites are from DeltaV, all of this code is ours.
+
+- type: markingsGroup
+  parent: Undergarments
+  id: CC14MarkingsFeroxi
+  onlyGroupWhitelisted: false
+  limits:
+    enum.HumanoidVisualLayers.Hair:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.FacialHair:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.Tail:
+      limit: 1
+      required: true
+      default: [ CC14FeroxiTail ]
+    enum.HumanoidVisualLayers.Chest:
+      limit: 2
+      required: true
+      default: [ CC14FeroxiBodyCountershadingFemale, CC14FeroxiBodyCountershadingMale ]
+    enum.HumanoidVisualLayers.Snout:
+      limit: 1
+      required: true
+      default: [ CC14FeroxiSnout ]
+    enum.HumanoidVisualLayers.Head:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.HeadTop:
+      limit: 1
+      required: true
+      default: [ CC14FeroxiEars ]
+    enum.HumanoidVisualLayers.HeadSide:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.LArm:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RArm:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LHand:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RHand:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LLeg:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RLeg:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.LFoot:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.RFoot:
+      limit: 1
+      required: false
+
+- type: entity
+  parent: BaseSpeciesAppearance
+  id: CC14AppearanceFeroxi
+  suffix: Claw Command
+  name: feroxi appearance
+  components:
+  - type: Inventory
+    speciesId: CC14SpeciesFeroxi
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
+      head:
+        sizeMaps:
+          32:
+            sprite: _ClawCommand/Mobs/Species/Feroxi/displacement.rsi
+            state: head
+      mask:
+        sizeMaps:
+          32:
+            sprite: _ClawCommand/Mobs/Species/Feroxi/displacement.rsi
+            state: mask
+    displacements:
+      head:
+        sizeMaps:
+          32:
+            sprite: _ClawCommand/Mobs/Species/Feroxi/displacement.rsi
+            state: head
+      mask:
+        sizeMaps:
+          32:
+            sprite: _ClawCommand/Mobs/Species/Feroxi/displacement.rsi
+            state: mask
+  - type: InitialBody
+    organs:
+      Torso: CC14OrganFeroxiTorso
+      Head: CC14OrganFeroxiHead
+      ArmLeft: CC14OrganFeroxiArmLeft
+      ArmRight: CC14OrganFeroxiArmRight
+      HandRight: CC14OrganFeroxiHandRight
+      HandLeft: CC14OrganFeroxiHandLeft
+      LegLeft: CC14OrganFeroxiLegLeft
+      LegRight: CC14OrganFeroxiLegRight
+      FootLeft: CC14OrganFeroxiFootLeft
+      FootRight: CC14OrganFeroxiFootRight
+      Brain: CC14OrganFeroxiBrain
+      Eyes: CC14OrganFeroxiEyes
+      Tongue: CC14OrganFeroxiTongue
+      Appendix: CC14OrganFeroxiAppendix
+      Ears: CC14OrganFeroxiEars
+      Lungs: CC14OrganFeroxiGills
+      Heart: CC14OrganFeroxiHeart
+      Stomach: CC14OrganFeroxiStomach
+      Liver: CC14OrganFeroxiLiver
+      Kidneys: CC14OrganFeroxiKidneys
+  - type: HumanoidProfile
+    species: CC14SpeciesFeroxi
+
+- type: entity
+  parent:
+  - CC14AppearanceFeroxi
+  - BaseSpeciesMobOrganic
+  id: CC14MobFeroxi
+  name: Urist McFin
+  suffix: Claw Command
+  components:
+  - type: Puller
+    needsHands: false
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatLizard
+      amount: 5
+  - type: Speech
+    speechSounds: Lizard
+    speechVerb: CC14SpeechFeroxi
+    allowedEmotes: ['Thump']
+  - type: TypingIndicator
+    proto: lizard
+  - type: Vocal
+    sounds:
+      Male: MaleReptilian
+      Female: FemaleReptilian
+      Unsexed: MaleReptilian
+  - type: BodyEmotes
+    soundsId: ReptilianBodyEmotes
+  - type: Damageable
+    damageModifierSet: CC14ModifierSetFeroxi
+  - type: MeleeWeapon
+    altDisarm: false
+    angle: 0
+    animation: WeaponArcBite
+    soundHit:
+      path: /Audio/Effects/bite.ogg
+    damage:
+      types:
+        Piercing: 6
+  - type: Temperature
+    currentTemperature: 310.15
+    specificHeat: 38
+  - type: TemperatureDamage
+    heatDamageThreshold: 400
+    coldDamageThreshold: 230
+    coldDamage:
+      types:
+        Cold : 0.05 #per second, scales with temperature & other constants
+    heatDamage:
+      types:
+        Heat : 1.5 #per second, scales with temperature & other constants
+  - type: TemperatureSpeed
+    thresholds:
+      301: 0.9
+      295: 0.8
+      285: 0.7
+  # - type: Wagging # TODO - CC14 - Animated tail sprites for Feroxi and Felinids
+  - type: Thirst
+    baseDecayRate: 1.0
