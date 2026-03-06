@@ -8,7 +8,7 @@
   - type: Pda
     id: CC14ClawCommandIDCard
     penSlot:
-      startingItem: PenCap
+      startingItem: Pen
       priority: -1
       whitelist:
         tags:
@@ -47,7 +47,7 @@
   - type: Pda
     id: CC14ClawCommandMaidIDCard
     penSlot:
-      startingItem: PenCap
+      startingItem: Pen
       priority: -1
       whitelist:
         tags:
