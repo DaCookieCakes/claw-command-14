@@ -25,7 +25,7 @@
       offset: "-0.065,0"
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: AccessReader
-    access: [ ["CC14AccessClawCommandOfficer"] ]
+    access: [ ["ClawCommand"] ]
   - type: EntityStorageVisuals
     stateBaseClosed: cco
     stateDoorOpen: cco_open
@@ -41,7 +41,7 @@
   - type: Sprite
     sprite: _ClawCommand/Structures/Storage/closet.rsi
   - type: AccessReader
-    access: [ ["CC14AccessClawCommandOfficer"] ]
+    access: [ ["ClawCommand"] ]
   - type: EntityStorageVisuals
     stateBaseClosed: cco
     stateDoorOpen: cco_open
