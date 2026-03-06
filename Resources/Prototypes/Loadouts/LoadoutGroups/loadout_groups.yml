@@ -73,6 +73,8 @@
   - EmergencyNitrogen
   - EmergencyOxygen
   - LoadoutSpeciesVoxNitrogen
+  - CC14LoadoutEmergencyWaterVapor # CC14
+  - CC14LoadoutTankFeroxi # CC14
 
 # nitrogen or oxygen tank, depending on what your species needs
 - type: loadoutGroup
@@ -240,6 +242,8 @@
 
 - type: loadoutGroup
   id: PassengerShoes
+  minLimit: 0 # CC14
+  defaultSelected: 1 # CC14
   name: loadout-group-passenger-shoes
   loadouts:
   - BlackShoes
@@ -554,6 +558,8 @@
   - EmergencyNitrogenClown
   - EmergencyOxygenClown
   - LoadoutSpeciesVoxNitrogen
+  - CC14LoadoutEmergencyWaterVapor # CC14
+  - CC14LoadoutTankFeroxi # CC14
 
 - type: loadoutGroup
   id: ClownJobTrinkets
@@ -618,6 +624,8 @@
   - EmergencyOxygenMime
   - EmergencySpeciesMothMime
   - LoadoutSpeciesVoxNitrogen
+  - CC14LoadoutEmergencyWaterVapor # CC14
+  - CC14LoadoutTankFeroxi # CC14
 
 #- type: loadoutGroup
 #  id: MimeJobTrinkets
@@ -717,6 +725,8 @@
 - type: loadoutGroup
   id: QuartermasterShoes
   name: loadout-group-quartermaster-shoes
+  minLimit: 0 # CC14
+  defaultSelected: 1 # CC14
   loadouts:
   - BrownShoes
   - CargoWinterBoots
@@ -759,6 +769,8 @@
 - type: loadoutGroup
   id: CargoTechnicianShoes
   name: loadout-group-cargo-technician-shoes
+  minLimit: 0 # CC14
+  defaultSelected: 1 # CC14
   loadouts:
   - BlackShoes
   - CargoWinterBoots
@@ -794,6 +806,8 @@
 - type: loadoutGroup
   id: SalvageSpecialistShoes
   name: loadout-group-salvage-specialist-shoes
+  minLimit: 0 # CC14
+  defaultSelected: 1 # CC14
   loadouts:
   - SalvageBoots
   - CargoWinterBoots
@@ -840,6 +854,8 @@
 - type: loadoutGroup
   id: ChiefEngineerShoes
   name: loadout-group-chief-engineer-shoes
+  minLimit: 0 # CC14
+  defaultSelected: 1 # CC14
   loadouts:
   - BrownShoes
   - EngineeringWinterBoots
@@ -902,6 +918,8 @@
 - type: loadoutGroup
   id: StationEngineerShoes
   name: loadout-group-station-engineer-shoes
+  minLimit: 0 # CC14
+  defaultSelected: 1 # CC14
   loadouts:
   - WorkBoots
   - EngineeringWinterBoots
@@ -945,6 +963,8 @@
 - type: loadoutGroup
   id: AtmosphericTechnicianShoes
   name: loadout-group-atmospheric-technician-shoes
+  minLimit: 0 # CC14
+  defaultSelected: 1 # CC14
   loadouts:
   - WhiteShoes
   - EngineeringWinterBoots
@@ -964,6 +984,8 @@
   - EmergencyNitrogenExtended
   - EmergencyOxygenExtended
   - LoadoutSpeciesVoxNitrogen
+  - CC14LoadoutEmergencyExtendedWaterVapor # CC14
+  - CC14LoadoutTankFeroxi # CC14
 
 # Science
 - type: loadoutGroup
@@ -999,6 +1021,8 @@
 - type: loadoutGroup
   id: ResearchDirectorShoes
   name: loadout-group-research-director-shoes
+  minLimit: 0 # CC14
+  defaultSelected: 1 # CC14
   loadouts:
   - BrownShoes
   - ScienceWinterBoots
@@ -1059,6 +1083,8 @@
 - type: loadoutGroup
   id: ScientistShoes
   name: loadout-group-scientist-shoes
+  minLimit: 0 # CC14
+  defaultSelected: 1 # CC14
   loadouts:
   - WhiteShoes
   - BlackShoes
@@ -1218,6 +1244,8 @@
 - type: loadoutGroup
   id: SecurityShoes
   name: loadout-group-security-shoes
+  minLimit: 0 # CC14
+  defaultSelected: 1 # CC14
   loadouts:
   - JackBoots
   - SecurityWinterBoots
@@ -1297,6 +1325,8 @@
   - EmergencyNitrogenSecurity
   - EmergencyOxygenSecurity
   - LoadoutSpeciesVoxNitrogen
+  - CC14LoadoutEmergencySecurityWaterVapor # CC14
+  - CC14LoadoutTankFeroxi # CC14
 
 # Wildcards
 - type: loadoutGroup
@@ -1335,6 +1365,8 @@
   - EmergencyNitrogenSyndicate
   - EmergencyOxygenSyndicate
   - LoadoutSpeciesVoxNitrogen
+  - CC14LoadoutEmergencyExtendedWaterVapor # CC14
+  - CC14LoadoutTankFeroxi # CC14
 
 - type: loadoutGroup
   id: SurvivalMilitaryDouble
@@ -1344,6 +1376,8 @@
   loadouts:
   - EmergencyNitrogenMilitaryDouble
   - EmergencyOxygenMilitaryDouble
+  - CC14LoadoutEmergencyExtendedWaterVapor # CC14
+  - CC14LoadoutTankFeroxi # CC14
 
 - type: loadoutGroup
   id: GroupSpeciesBreathTool

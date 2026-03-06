@@ -1,0 +1,55 @@
+- type: loadoutEffectGroup
+  id: CC14LoadoutGroupWaterBreather
+  effects:
+  - !type:SpeciesLoadoutEffect
+    species:
+    - CC14SpeciesFeroxi
+
+# Standard
+- type: loadout
+  id: CC14LoadoutEmergencyWaterVapor
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: CC14LoadoutGroupWaterBreather
+  storage:
+    back:
+    - CC14BoxSurvivalWaterVapor
+
+# Engineering / Extended
+- type: loadout
+  id: CC14LoadoutEmergencyExtendedWaterVapor
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: CC14LoadoutGroupWaterBreather
+  storage:
+    back:
+    - CC14BoxSurvivalEngineeringWaterVapor
+
+# Medical
+- type: loadout
+  id: CC14LoadoutEmergencyMedicalWaterVapor
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: CC14LoadoutGroupWaterBreather
+  storage:
+    back:
+    - CC14BoxSurvivalMedicalWaterVapor
+
+# Security
+- type: loadout
+  id: CC14LoadoutEmergencySecurityWaterVapor
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: CC14LoadoutGroupWaterBreather
+  storage:
+    back:
+    - CC14BoxSurvivalSecurityWaterVapor
+
+# Extended tank for Feroxi
+- type: loadout
+  id: CC14LoadoutTankFeroxi
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: CC14LoadoutGroupWaterBreather
+  equipment:
+    pocket1: CC14EmergencyTankDoubleExtendedWaterVaporFilled

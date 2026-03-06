@@ -1,0 +1,216 @@
+# Head
+- type: marking
+  id: CC14FeroxiHeadStripesTiger
+  bodyPart: Head
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/body_markings.rsi
+    state: feroxi-head-stripes-tiger
+
+# Ears
+- type: marking
+  id: CC14FeroxiEars
+  bodyPart: HeadTop
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/ear_markings.rsi
+    state: feroxi-ears
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/ear_markings.rsi
+    state: feroxi-ears-inner
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/ear_markings.rsi
+    state: feroxi-ears-tips
+
+# Snout
+- type: marking
+  id: CC14FeroxiSnout
+  bodyPart: Snout
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/snout_markings.rsi
+    state: feroxi-snout
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/snout_markings.rsi
+    state: feroxi-snout-countershading
+
+- type: marking
+  id: CC14FeroxiSnoutNurse
+  bodyPart: Snout
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  coloring:
+    layers:
+      feroxi-snout-nurse:
+        type:
+          !type:SimpleColoring
+          color: "#FFFFFF"
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/snout_markings.rsi
+    state: feroxi-snout
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/snout_markings.rsi
+    state: feroxi-snout-countershading
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/snout_markings.rsi
+    state: feroxi-snout-nurse
+
+- type: marking
+  id: CC14FeroxiSnoutStripe
+  bodyPart: Snout
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/snout_markings.rsi
+    state: feroxi-snout
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/snout_markings.rsi
+    state: feroxi-snout-countershading
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/snout_markings.rsi
+    state: feroxi-snout-stripe
+
+# Body
+- type: marking
+  id: CC14FeroxiBodyCountershadingFemale
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sexRestriction: [ Female ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/body_markings.rsi
+    state: feroxi-torso-countershading-f
+
+- type: marking
+  id: CC14FeroxiBodyCountershadingMale
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sexRestriction: [ Male ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/body_markings.rsi
+    state: feroxi-torso-countershading-m
+
+- type: marking
+  id: CC14FeroxiBodyStripesBlitz
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/body_markings.rsi
+    state: feroxi-torso-stripes-blitz
+
+- type: marking
+  id: CC14FeroxiBodyStripesTiger
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/body_markings.rsi
+    state: feroxi-torso-stripes-tiger
+
+# Arms/Hands
+- type: marking
+  id: CC14FeroxiLeftArmStripesBlitz
+  bodyPart: LArm
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/body_markings.rsi
+    state: feroxi-left-arm-stripes-blitz
+
+- type: marking
+  id: CC14FeroxiLeftArmStripesTiger
+  bodyPart: LArm
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/body_markings.rsi
+    state: feroxi-left-arm-stripes-tiger
+
+- type: marking
+  id: CC14FeroxiRightArmStripesBlitz
+  bodyPart: RArm
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/body_markings.rsi
+    state: feroxi-right-arm-stripes-blitz
+
+- type: marking
+  id: CC14FeroxiRightArmStripesTiger
+  bodyPart: RArm
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/body_markings.rsi
+    state: feroxi-right-arm-stripes-tiger
+
+# Legs/Feet
+- type: marking
+  id: CC14FeroxiLeftLegStripesBlitz
+  bodyPart: LLeg
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/body_markings.rsi
+    state: feroxi-left-leg-stripes-blitz
+
+- type: marking
+  id: CC14FeroxiLeftLegStripesTiger
+  bodyPart: LLeg
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/body_markings.rsi
+    state: feroxi-left-leg-stripes-tiger
+
+- type: marking
+  id: CC14FeroxiRightLegStripesBlitz
+  bodyPart: RLeg
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/body_markings.rsi
+    state: feroxi-right-leg-stripes-blitz
+
+- type: marking
+  id: CC14FeroxiRightLegStripesTiger
+  bodyPart: RLeg
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/body_markings.rsi
+    state: feroxi-right-leg-stripes-tiger
+
+# Tails
+- type: marking
+  id: CC14FeroxiTail
+  bodyPart: Tail
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/tail_markings.rsi
+    state: feroxi-tail
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/tail_markings.rsi
+    state: feroxi-tail-bottom-tip
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/tail_markings.rsi
+    state: feroxi-tail-top-tip
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/tail_markings.rsi
+    state: feroxi-tail-under
+
+- type: marking
+  id: CC14FeroxiTailStripe
+  bodyPart: Tail
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/tail_markings.rsi
+    state: feroxi-tail
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/tail_markings.rsi
+    state: feroxi-tail-stripes
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/tail_markings.rsi
+    state: feroxi-tail-bottom-tip
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/tail_markings.rsi
+    state: feroxi-tail-top-tip
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/tail_markings.rsi
+    state: feroxi-tail-under
+
+- type: marking
+  id: CC14FeroxiTailDorsal
+  bodyPart: Tail
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/tail_markings.rsi
+    state: feroxi-dorsal
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/tail_markings.rsi
+    state: feroxi-dorsal-tip
+
+- type: marking
+  id: CC14FeroxiTailDorsalStripe
+  bodyPart: Tail
+  groupWhitelist: [ CC14MarkingsFeroxi ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/tail_markings.rsi
+    state: feroxi-dorsal
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/tail_markings.rsi
+    state: feroxi-dorsal-stripes
+  - sprite: _DeltaV/Mobs/Customization/Feroxi/tail_markings.rsi
+    state: feroxi-dorsal-tip

@@ -1,0 +1,132 @@
+
+- type: entity
+  parent: OrganBase
+  id: CC14OrganFelinidBase
+  abstract: true
+  suffix: Claw Command, Felinid
+
+- type: entity
+  id: CC14OrganFelinidMetabolizer
+  abstract: true
+  components:
+  - type: Metabolizer
+    metabolizerTypes: [ CC14MetabolizerFelinid ]
+
+- type: entity
+  parent: CC14OrganFelinidBase
+  id: CC14OrganFelinidInternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/organs.rsi
+
+- type: entity
+  parent: CC14OrganFelinidBase
+  id: CC14OrganFelinidExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: Mobs/Species/Human/parts.rsi
+  - type: VisualOrganMarkings
+    markingData:
+      group: CC14MarkingsFelinid
+
+- type: entity
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, CC14OrganFelinidExternal ]
+  id: CC14OrganFelinidTorso
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, CC14OrganFelinidExternal ]
+  id: CC14OrganFelinidHead
+  components:
+  - type: VisualOrganMarkings
+    hideableLayers:
+    - enum.HumanoidVisualLayers.Hair
+    - enum.HumanoidVisualLayers.Snout
+
+- type: entity
+  parent: [ OrganBaseArmLeft, CC14OrganFelinidExternal ]
+  id: CC14OrganFelinidArmLeft
+
+- type: entity
+  parent: [ OrganBaseArmRight, CC14OrganFelinidExternal ]
+  id: CC14OrganFelinidArmRight
+
+- type: entity
+  parent: [ OrganBaseHandLeft, CC14OrganFelinidExternal ]
+  id: CC14OrganFelinidHandLeft
+
+- type: entity
+  parent: [ OrganBaseHandRight, CC14OrganFelinidExternal ]
+  id: CC14OrganFelinidHandRight
+
+- type: entity
+  parent: [ OrganBaseLegLeft, CC14OrganFelinidExternal ]
+  id: CC14OrganFelinidLegLeft
+
+- type: entity
+  parent: [ OrganBaseLegRight, CC14OrganFelinidExternal ]
+  id: CC14OrganFelinidLegRight
+
+- type: entity
+  parent: [ OrganBaseFootLeft, CC14OrganFelinidExternal ]
+  id: CC14OrganFelinidFootLeft
+
+- type: entity
+  parent: [ OrganBaseFootRight, CC14OrganFelinidExternal ]
+  id: CC14OrganFelinidFootRight
+
+- type: entity
+  parent: [ OrganBaseBrain, CC14OrganFelinidInternal ]
+  id: CC14OrganFelinidBrain
+
+- type: entity
+  parent: [ OrganBaseEyes, CC14OrganFelinidInternal, CC14OrganFelinidExternal ]
+  id: CC14OrganFelinidEyes
+  components:
+  - type: VisualOrgan
+    data:
+      sprite: Mobs/Customization/eyes.rsi
+
+- type: entity
+  parent: [ OrganBaseTongue, CC14OrganFelinidInternal ]
+  id: CC14OrganFelinidTongue
+
+- type: entity
+  parent: [ OrganBaseAppendix, CC14OrganFelinidInternal ]
+  id: CC14OrganFelinidAppendix
+
+- type: entity
+  parent: [ OrganBaseEars, CC14OrganFelinidInternal ]
+  id: CC14OrganFelinidEars
+
+- type: entity
+  parent: [ OrganBaseLungs, CC14OrganFelinidInternal, CC14OrganFelinidMetabolizer ]
+  id: CC14OrganFelinidLungs
+
+- type: entity
+  parent: [ OrganBaseHeart, CC14OrganFelinidInternal, CC14OrganFelinidMetabolizer ]
+  id: CC14OrganFelinidHeart
+
+- type: entity
+  parent: [ OrganBaseStomach, CC14OrganFelinidInternal, CC14OrganFelinidMetabolizer ]
+  id: CC14OrganFelinidStomach
+  components:
+  - type: Stomach
+    specialDigestible:
+      tags:
+      - Meat
+      - Vegetable
+      - Pill
+      - CC14TagNutribrick
+
+- type: entity
+  parent: [ OrganBaseLiver, CC14OrganFelinidInternal, CC14OrganFelinidMetabolizer ]
+  id: CC14OrganFelinidLiver
+
+- type: entity
+  parent: [ OrganBaseKidneys, CC14OrganFelinidInternal, CC14OrganFelinidMetabolizer ]
+  id: CC14OrganFelinidKidneys
