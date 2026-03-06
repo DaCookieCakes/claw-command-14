@@ -14,7 +14,7 @@
       color: "#ad319d"
     - sprite: _ClawCommand/Interface/Misc/job_icons.rsi
       offset: -0.09375, 0.0625
-      state: clawcommandofficer
+      state: clawcommand
   - type: Item
     heldPrefix: clawcommand
   - type: PresetIdCard
@@ -46,7 +46,7 @@
       color: "#ad319d"
     - sprite: _ClawCommand/Interface/Misc/job_icons.rsi
       offset: -0.09375, 0.0625
-      state: clawcommandofficer
+      state: clawcommand
   - type: Item
     heldPrefix: clawcommand
   - type: PresetIdCard
