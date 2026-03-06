@@ -1,6 +1,6 @@
 - type: entity
   parent: [DrinkBottleGlassBaseFull]
-  id: CC14DrinkClawtailBottleFull
+  id: DrinkClawtailBottleFull
   suffix: Claw Command, Clawtail
   name: claw command's special reserve
   description: "A potent triple-layer shot (red, gold, shades of gray) symbolizing the hierarchy of chaos: crew, command, catastrophe."
@@ -19,7 +19,7 @@
 
 - type: entity
   parent: DrinkGlass
-  id: CC14DrinkClawtailGlass
+  id: DrinkClawtailGlass
   suffix: Claw Command, Clawtail
   components:
   - type: SolutionContainerManager

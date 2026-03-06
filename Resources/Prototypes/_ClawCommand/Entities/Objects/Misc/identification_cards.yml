@@ -1,6 +1,6 @@
 - type: entity
   parent: [IDCardStandard, BaseGrandTheftContraband]
-  id: CC14ClawCommandIDCard
+  id: ClawCommandIDCard
   suffix: Claw Command
   name: claw command officer ID card
   components:
@@ -32,7 +32,7 @@
 
 - type: entity
   parent: [IDCardStandard, BaseGrandTheftContraband]
-  id: CC14ClawCommandMaidIDCard
+  id: ClawCommandMaidIDCard
   suffix: Claw Command
   name: claw command officer ID card
   components:

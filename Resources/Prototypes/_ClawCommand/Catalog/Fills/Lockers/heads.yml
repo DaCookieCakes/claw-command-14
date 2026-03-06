@@ -1,7 +1,7 @@
 - type: entity
-  id: CC14LockerClawCommandOfficerFilled
+  id: LockerClawCommandOfficerFilled
   suffix: Claw Command, Filled
-  parent: CC14LockerClawCommandOfficer
+  parent: LockerClawCommandOfficer
   components:
   - type: StorageFill
     contents:
@@ -13,8 +13,8 @@
     # - id: WeaponEnergyRevolver
 
 - type: entity
-  parent: CC14LockerClawCommandMaid
-  id: CC14LockerClawCommandMaidFilled
+  parent: LockerClawCommandMaid
+  id: LockerClawCommandMaidFilled
   suffix: Claw Command, Filled
   components:
   - type: StorageFill

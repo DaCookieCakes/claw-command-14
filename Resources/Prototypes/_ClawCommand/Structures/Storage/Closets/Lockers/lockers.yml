@@ -1,6 +1,6 @@
 - type: entity
   parent: LockerBaseSecure
-  id: CC14LockerClawCommandOfficer
+  id: LockerClawCommandOfficer
   suffix: Claw Command
   name: claw command officer locker
   components:
@@ -33,7 +33,7 @@
 
 - type: entity
   parent: LockerBaseSecure
-  id: CC14LockerClawCommandMaid
+  id: LockerClawCommandMaid
   suffix: Claw Command
   name: claw command maid locker
   components:

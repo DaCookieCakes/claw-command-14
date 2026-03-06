@@ -40,7 +40,7 @@
     eyes: ClothingEyesHudMedSec
     ears: ClothingHeadsetAltSecurity
     pocket1: WeaponPistolMk58
-    id: CC14ClawCommandOfficerPDA
+    id: ClawCommandOfficerPDA
   storage:
     back:
     - Flash
