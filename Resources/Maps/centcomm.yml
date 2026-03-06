@@ -1,16 +1,16 @@
 meta:
   format: 7
-  category: Grid
-  engineVersion: 268.0.0
+  category: Map
+  engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 12/07/2025 22:34:43
-  entityCount: 9769
-maps: []
+  time: 03/04/2026 21:09:48
+  entityCount: 9776
+maps:
+- 14
 grids:
 - 1668
-orphans:
-- 1668
+orphans: []
 nullspace: []
 tilemap:
   0: Space
@@ -50,12 +50,22 @@ tilemap:
 entities:
 - proto: ""
   entities:
+  - uid: 14
+    components:
+    - type: MetaData
+      name: Map Entity
+    - type: Transform
+    - type: Map
+      mapPaused: True
+    - type: GridTree
+    - type: Broadphase
+    - type: OccluderTree
   - uid: 1668
     components:
     - type: MetaData
       name: Central Command
     - type: Transform
-      parent: invalid
+      parent: 14
     - type: MapGrid
       chunks:
         -1,-1:
@@ -2203,11 +2213,6 @@ entities:
             color: '#334E6DC8'
             id: FullTileOverlayGreyscale
           decals:
-            9: 27,-1
-            10: 26,-1
-            11: 25,-1
-            12: 27,-2
-            39: 25,0
             2813: -16,-7
             2814: -15,-7
         - node:
@@ -2398,6 +2403,18 @@ entities:
           decals:
             2819: -16,-11
             2820: -15,-11
+        - node:
+            color: '#FF005EFF'
+            id: FullTileOverlayGreyscale
+          decals:
+            3385: 26,1
+            3392: 26,-3
+            3393: 25,-2
+            3394: 25,0
+            3395: 25,-2
+            3396: 25,-1
+            3406: 29,-3
+            3407: 23,1
         - node:
             color: '#FFFFFFFF'
             id: Grassa1
@@ -2635,15 +2652,9 @@ entities:
             color: '#334E6DC8'
             id: HalfTileOverlayGreyscale270
           decals:
-            0: 28,-1
-            3: 28,1
-            4: 28,0
-            5: 28,-2
             17: 23,1
             18: 29,-3
             19: 29,-2
-            33: 25,-3
-            44: 25,-2
             1427: 0,4
             1437: 0,-6
         - node:
@@ -2689,15 +2700,9 @@ entities:
             color: '#334E6DC8'
             id: HalfTileOverlayGreyscale90
           decals:
-            1: 24,-1
-            2: 27,1
-            6: 24,-2
-            7: 24,-3
-            8: 24,0
             13: 23,1
             14: 23,0
             22: 29,-3
-            38: 27,0
             1426: -2,4
             1436: -2,-6
         - node:
@@ -2778,7 +2783,6 @@ entities:
             id: QuarterTileOverlayGreyscale
           decals:
             15: 23,0
-            35: 28,-3
             1430: 0,3
             1433: -1,4
             1434: 1,3
@@ -2920,7 +2924,6 @@ entities:
             351: 1,-5
             352: 2,-5
             353: 3,-5
-            354: 4,-5
             355: 4,-4
             356: 4,-3
             357: 4,-2
@@ -2999,7 +3002,6 @@ entities:
             id: QuarterTileOverlayGreyscale180
           decals:
             20: 29,-2
-            34: 24,1
             1429: -2,5
             1432: -1,4
             1435: -3,5
@@ -3197,7 +3199,6 @@ entities:
             color: '#334E6DC8'
             id: QuarterTileOverlayGreyscale270
           decals:
-            40: 28,-3
             1428: 0,5
             1440: 0,-5
         - node:
@@ -3316,7 +3317,6 @@ entities:
             color: '#334E6DC8'
             id: QuarterTileOverlayGreyscale90
           decals:
-            41: 24,1
             1431: -2,3
             1439: -2,-7
         - node:
@@ -3558,19 +3558,39 @@ entities:
           decals:
             1215: -8,11
         - node:
+            color: '#FF005EFF'
+            id: ThreeQuarterTileOverlayGreyscale
+          decals:
+            3398: 27,1
+        - node:
+            color: '#FF005EFF'
+            id: ThreeQuarterTileOverlayGreyscale180
+          decals:
+            3401: 25,1
+        - node:
             color: '#334E6DC8'
             id: ThreeQuarterTileOverlayGreyscale270
           decals:
             21: 30,-3
-            36: 25,1
-            37: 26,0
+        - node:
+            color: '#FF005EFF'
+            id: ThreeQuarterTileOverlayGreyscale270
+          decals:
+            3397: 27,-3
+            3404: 29,-2
+            3405: 30,-3
         - node:
             color: '#334E6DC8'
             id: ThreeQuarterTileOverlayGreyscale90
           decals:
             16: 22,1
-            42: 27,-3
-            43: 26,-2
+        - node:
+            color: '#FF005EFF'
+            id: ThreeQuarterTileOverlayGreyscale90
+          decals:
+            3400: 25,-3
+            3402: 23,0
+            3403: 22,1
         - node:
             angle: -1.5707963267948966 rad
             color: '#9FED5896'
@@ -4910,6 +4930,8 @@ entities:
     - type: NavMap
     - type: ImplicitRoof
     - type: ExplosionAirtightGrid
+    - type: TileHistory
+      chunkHistory: {}
 - proto: AccessConfiguratorUniversal
   entities:
   - uid: 2056
@@ -5055,18 +5077,6 @@ entities:
       parent: 1668
 - proto: AirlockCentralCommand
   entities:
-  - uid: 1128
-    components:
-    - type: Transform
-      pos: 30.5,-7.5
-      parent: 1668
-  - uid: 1134
-    components:
-    - type: MetaData
-      name: The After Hours Bar
-    - type: Transform
-      pos: 30.5,-14.5
-      parent: 1668
   - uid: 1271
     components:
     - type: Transform
@@ -5087,81 +5097,6 @@ entities:
       parent: 1668
 - proto: AirlockCentralCommandGlass
   entities:
-  - uid: 152
-    components:
-    - type: Transform
-      pos: 0.5,-7.5
-      parent: 1668
-  - uid: 153
-    components:
-    - type: Transform
-      pos: -1.5,-7.5
-      parent: 1668
-  - uid: 164
-    components:
-    - type: Transform
-      pos: -0.5,-7.5
-      parent: 1668
-  - uid: 310
-    components:
-    - type: Transform
-      pos: 7.5,-1.5
-      parent: 1668
-  - uid: 311
-    components:
-    - type: Transform
-      pos: 18.5,-0.5
-      parent: 1668
-  - uid: 312
-    components:
-    - type: Transform
-      pos: 18.5,-1.5
-      parent: 1668
-  - uid: 313
-    components:
-    - type: Transform
-      pos: 7.5,-0.5
-      parent: 1668
-  - uid: 316
-    components:
-    - type: Transform
-      pos: 7.5,0.5
-      parent: 1668
-  - uid: 317
-    components:
-    - type: Transform
-      pos: 18.5,0.5
-      parent: 1668
-  - uid: 587
-    components:
-    - type: Transform
-      pos: -8.5,-1.5
-      parent: 1668
-  - uid: 588
-    components:
-    - type: Transform
-      pos: -8.5,-0.5
-      parent: 1668
-  - uid: 589
-    components:
-    - type: Transform
-      pos: -8.5,0.5
-      parent: 1668
-  - uid: 590
-    components:
-    - type: Transform
-      pos: 0.5,6.5
-      parent: 1668
-  - uid: 591
-    components:
-    - type: Transform
-      pos: -0.5,6.5
-      parent: 1668
-  - uid: 592
-    components:
-    - type: Transform
-      pos: -1.5,6.5
-      parent: 1668
   - uid: 4310
     components:
     - type: Transform
@@ -5306,6 +5241,93 @@ entities:
     components:
     - type: Transform
       pos: 5.5,-7.5
+      parent: 1668
+- proto: AirlockClawCommandGlass
+  entities:
+  - uid: 152
+    components:
+    - type: Transform
+      pos: 30.5,-14.5
+      parent: 1668
+  - uid: 153
+    components:
+    - type: Transform
+      pos: 30.5,-7.5
+      parent: 1668
+  - uid: 164
+    components:
+    - type: Transform
+      pos: -1.5,-7.5
+      parent: 1668
+  - uid: 310
+    components:
+    - type: Transform
+      pos: -0.5,-7.5
+      parent: 1668
+  - uid: 311
+    components:
+    - type: Transform
+      pos: 0.5,-7.5
+      parent: 1668
+  - uid: 312
+    components:
+    - type: Transform
+      pos: 7.5,0.5
+      parent: 1668
+  - uid: 313
+    components:
+    - type: Transform
+      pos: 18.5,-0.5
+      parent: 1668
+  - uid: 316
+    components:
+    - type: Transform
+      pos: 18.5,0.5
+      parent: 1668
+  - uid: 317
+    components:
+    - type: Transform
+      pos: 7.5,-0.5
+      parent: 1668
+  - uid: 587
+    components:
+    - type: Transform
+      pos: 7.5,-1.5
+      parent: 1668
+  - uid: 588
+    components:
+    - type: Transform
+      pos: 18.5,-1.5
+      parent: 1668
+  - uid: 589
+    components:
+    - type: Transform
+      pos: -8.5,0.5
+      parent: 1668
+  - uid: 590
+    components:
+    - type: Transform
+      pos: -8.5,-0.5
+      parent: 1668
+  - uid: 591
+    components:
+    - type: Transform
+      pos: -8.5,-1.5
+      parent: 1668
+  - uid: 592
+    components:
+    - type: Transform
+      pos: 0.5,6.5
+      parent: 1668
+  - uid: 1128
+    components:
+    - type: Transform
+      pos: -0.5,6.5
+      parent: 1668
+  - uid: 1134
+    components:
+    - type: Transform
+      pos: -1.5,6.5
       parent: 1668
 - proto: AirlockCommandGlassLocked
   entities:
@@ -7507,7 +7529,7 @@ entities:
   - uid: 534
     components:
     - type: Transform
-      pos: -0.24795187,1.5721796
+      pos: 0.7272221,1.6970897
       parent: 1668
   - uid: 1611
     components:
@@ -7666,11 +7688,6 @@ entities:
       parent: 1668
 - proto: BoxFolderRed
   entities:
-  - uid: 533
-    components:
-    - type: Transform
-      pos: -0.73396444,1.5546008
-      parent: 1668
   - uid: 1987
     components:
     - type: Transform
@@ -20518,36 +20535,6 @@ entities:
       parent: 1668
 - proto: CarpetGreen
   entities:
-  - uid: 14
-    components:
-    - type: Transform
-      pos: -0.5,0.5
-      parent: 1668
-  - uid: 490
-    components:
-    - type: Transform
-      pos: -1.5,0.5
-      parent: 1668
-  - uid: 491
-    components:
-    - type: Transform
-      pos: -1.5,-0.5
-      parent: 1668
-  - uid: 495
-    components:
-    - type: Transform
-      pos: 0.5,0.5
-      parent: 1668
-  - uid: 525
-    components:
-    - type: Transform
-      pos: -0.5,-0.5
-      parent: 1668
-  - uid: 526
-    components:
-    - type: Transform
-      pos: 0.5,-0.5
-      parent: 1668
   - uid: 2046
     components:
     - type: Transform
@@ -20894,6 +20881,53 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -36.5,3.5
+      parent: 1668
+- proto: CarpetPink
+  entities:
+  - uid: 491
+    components:
+    - type: Transform
+      pos: -0.5,1.5
+      parent: 1668
+  - uid: 495
+    components:
+    - type: Transform
+      pos: -1.5,0.5
+      parent: 1668
+  - uid: 525
+    components:
+    - type: Transform
+      pos: 0.5,0.5
+      parent: 1668
+  - uid: 526
+    components:
+    - type: Transform
+      pos: -1.5,1.5
+      parent: 1668
+  - uid: 527
+    components:
+    - type: Transform
+      pos: 0.5,1.5
+      parent: 1668
+  - uid: 533
+    components:
+    - type: Transform
+      pos: -0.5,0.5
+      parent: 1668
+  - uid: 9708
+    components:
+    - type: Transform
+      pos: -1.5,-0.5
+      parent: 1668
+  - uid: 9709
+    components:
+    - type: Transform
+      pos: -0.5,-0.5
+      parent: 1668
+  - uid: 9710
+    components:
+    - type: Transform
+      pos: 0.5,-0.5
       parent: 1668
 - proto: CarpetPurple
   entities:
@@ -22219,6 +22253,20 @@ entities:
     - type: Transform
       pos: -5.5,19.5
       parent: 1668
+- proto: ClawCommandIDCard
+  entities:
+  - uid: 801
+    components:
+    - type: Transform
+      pos: -1.4134029,1.5877147
+      parent: 1668
+- proto: ClawHandyFlag
+  entities:
+  - uid: 9705
+    components:
+    - type: Transform
+      pos: 3.555347,-1.5513396
+      parent: 1668
 - proto: CloningPod
   entities:
   - uid: 733
@@ -22326,6 +22374,13 @@ entities:
     - type: Physics
       canCollide: False
     - type: InsideEntityStorage
+- proto: ClothingBackpackDuffelClawCommand
+  entities:
+  - uid: 9706
+    components:
+    - type: Transform
+      pos: -0.36652792,1.7127147
+      parent: 1668
 - proto: ClothingBackpackERTEngineer
   entities:
   - uid: 6781
@@ -22517,6 +22572,13 @@ entities:
     components:
     - type: Transform
       pos: -40.43181,-6.556486
+      parent: 1668
+- proto: ClothingClawCommandArmourVest
+  entities:
+  - uid: 9707
+    components:
+    - type: Transform
+      pos: -3.2992408,-1.0983696
       parent: 1668
 - proto: ClothingEyesGlassesMeson
   entities:
@@ -22715,6 +22777,13 @@ entities:
     components:
     - type: Transform
       pos: -38.305424,13.6884775
+      parent: 1668
+- proto: ClothingHeadHatCowboyClawCommand
+  entities:
+  - uid: 490
+    components:
+    - type: Transform
+      pos: -3.2130487,-2.2180302
       parent: 1668
 - proto: ClothingHeadHatPartyBlue
   entities:
@@ -42734,11 +42803,6 @@ entities:
       parent: 1668
 - proto: Lamp
   entities:
-  - uid: 527
-    components:
-    - type: Transform
-      pos: -1.4329706,1.8655163
-      parent: 1668
   - uid: 2089
     components:
     - type: Transform
@@ -44744,6 +44808,15 @@ entities:
     - type: Transform
       pos: -31.43239,-10.454217
       parent: 1668
+- proto: PosterClawCommand
+  entities:
+  - uid: 9704
+    components:
+    - type: Transform
+      pos: 3.5,-3.5
+      parent: 1668
+    - type: Fixtures
+      fixtures: {}
 - proto: PosterContrabandAtmosiaDeclarationIndependence
   entities:
   - uid: 4029
@@ -45098,13 +45171,6 @@ entities:
     components:
     - type: Transform
       pos: 2.5,-7.5
-      parent: 1668
-    - type: Fixtures
-      fixtures: {}
-  - uid: 801
-    components:
-    - type: Transform
-      pos: 3.5,-3.5
       parent: 1668
     - type: Fixtures
       fixtures: {}

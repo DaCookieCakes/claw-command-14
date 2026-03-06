@@ -30,6 +30,7 @@
   - Engineering
   - Command
   - CentralCommand
+  - ClawCommand
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -81,6 +82,7 @@
   - Theatre
   - Cargo
   - Salvage
+  - ClawCommand
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
