@@ -280,7 +280,9 @@ namespace Content.Shared.Preferences
 
         public HumanoidCharacterProfile WithAge(int age)
         {
-            return new(this) { Age = age };
+            // Claw command enforce min and max character age.
+            int clamped = Math.Clamp(age, 18, 150);
+            return new(this) { Age = clamped };
         }
 
         public HumanoidCharacterProfile WithSex(Sex sex)
@@ -371,7 +373,7 @@ namespace Content.Shared.Preferences
         {
             return new(this)
             {
-                _antagPreferences = new (antagPreferences),
+                _antagPreferences = new(antagPreferences),
             };
         }
 
