@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/05/2026 04:53:13
-  entityCount: 18798
+  time: 03/08/2026 00:02:45
+  entityCount: 18806
 maps:
 - 1
 grids:
@@ -22384,6 +22384,13 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 3.5,15.5
+      parent: 2
+- proto: BoardGameSpawner100
+  entities:
+  - uid: 18803
+    components:
+    - type: Transform
+      pos: -27.5,-47.5
       parent: 2
 - proto: BookAtmosAirAlarms
   entities:
@@ -55337,6 +55344,11 @@ entities:
     components:
     - type: Transform
       pos: -28.5,-42.5
+      parent: 2
+  - uid: 18804
+    components:
+    - type: Transform
+      pos: -27.5,-46.5
       parent: 2
 - proto: DefaultStationBeaconEngineering
   entities:
@@ -93388,6 +93400,23 @@ entities:
     - type: Transform
       pos: 38.38096,24.430704
       parent: 2
+- proto: PlushieSpawner50
+  entities:
+  - uid: 18799
+    components:
+    - type: Transform
+      pos: -27.5,-44.5
+      parent: 2
+  - uid: 18800
+    components:
+    - type: Transform
+      pos: -28.5,-50.5
+      parent: 2
+  - uid: 18801
+    components:
+    - type: Transform
+      pos: -27.5,-54.5
+      parent: 2
 - proto: PlushieVox
   entities:
   - uid: 1785
@@ -106964,6 +106993,18 @@ entities:
       - SurveillanceCameraGeneral
       nameSet: True
       id: G26 - Spare Room
+  - uid: 18805
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -22.5,-52.5
+      parent: 2
+  - uid: 18806
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -27.5,-37.5
+      parent: 2
 - proto: SurveillanceCameraMedical
   entities:
   - uid: 3085
@@ -109730,6 +109771,11 @@ entities:
     components:
     - type: Transform
       pos: -19.5,-21.5
+      parent: 2
+  - uid: 18802
+    components:
+    - type: Transform
+      pos: -27.5,-47.5
       parent: 2
 - proto: TargetDarts
   entities:
