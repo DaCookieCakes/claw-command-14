@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/04/2026 21:10:37
-  entityCount: 2912
+  time: 03/07/2026 23:58:09
+  entityCount: 2932
 maps:
 - 1
 grids:
@@ -2338,6 +2338,14 @@ entities:
     components:
     - type: Transform
       pos: 6.3718643,-0.34468752
+      parent: 2
+- proto: BoardGameSpawner100
+  entities:
+  - uid: 2919
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -15.5,-11.5
       parent: 2
 - proto: BookshelfFilled
   entities:
@@ -6661,6 +6669,18 @@ entities:
       rot: 3.141592653589793 rad
       pos: 18.5,7.5
       parent: 2
+  - uid: 2916
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -14.5,-12.5
+      parent: 2
+  - uid: 2917
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -14.5,-11.5
+      parent: 2
 - proto: ChairFolding
   entities:
   - uid: 853
@@ -6801,6 +6821,14 @@ entities:
     components:
     - type: Transform
       pos: 6.5,1.5
+      parent: 2
+- proto: ChessBoard
+  entities:
+  - uid: 2918
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -15.5505905,-12.318077
       parent: 2
 - proto: CircuitImprinter
   entities:
@@ -7675,6 +7703,18 @@ entities:
     - type: Transform
       pos: 4.5,-7.5
       parent: 2
+- proto: DefaultStationBeaconDorms
+  entities:
+  - uid: 2930
+    components:
+    - type: Transform
+      pos: -12.5,-12.5
+      parent: 2
+  - uid: 2931
+    components:
+    - type: Transform
+      pos: -12.5,-12.5
+      parent: 2
 - proto: DefaultStationBeaconEngineering
   entities:
   - uid: 977
@@ -8512,6 +8552,36 @@ entities:
       deviceLists:
       - 2621
       - 2575
+  - uid: 2923
+    components:
+    - type: Transform
+      pos: -12.5,-13.5
+      parent: 2
+  - uid: 2924
+    components:
+    - type: Transform
+      pos: -9.5,-13.5
+      parent: 2
+  - uid: 2925
+    components:
+    - type: Transform
+      pos: -13.5,-10.5
+      parent: 2
+  - uid: 2926
+    components:
+    - type: Transform
+      pos: -9.5,-10.5
+      parent: 2
+  - uid: 2927
+    components:
+    - type: Transform
+      pos: -3.5,-11.5
+      parent: 2
+  - uid: 2928
+    components:
+    - type: Transform
+      pos: -3.5,-12.5
+      parent: 2
 - proto: Fireplace
   entities:
   - uid: 1384
@@ -13222,6 +13292,13 @@ entities:
     - type: Transform
       pos: -3.5,7.5
       parent: 2
+- proto: MagicDiceBag
+  entities:
+  - uid: 2920
+    components:
+    - type: Transform
+      pos: -15.5714245,-11.984743
+      parent: 2
 - proto: MaintenanceFluffSpawner
   entities:
   - uid: 1661
@@ -13416,6 +13493,18 @@ entities:
     components:
     - type: Transform
       pos: -4.2076445,-6.1772423
+      parent: 2
+- proto: PlushieSpawner50
+  entities:
+  - uid: 2921
+    components:
+    - type: Transform
+      pos: -10.5,-12.5
+      parent: 2
+  - uid: 2922
+    components:
+    - type: Transform
+      pos: -6.5,-11.5
       parent: 2
 - proto: PortableGeneratorJrPacman
   entities:
@@ -14256,6 +14345,11 @@ entities:
     components:
     - type: Transform
       pos: -5.5,-11.5
+      parent: 2
+  - uid: 2913
+    components:
+    - type: Transform
+      pos: -11.5,-11.5
       parent: 2
 - proto: PoweredWarmSmallLight
   entities:
@@ -15693,6 +15787,15 @@ entities:
       parent: 2
     - type: Fixtures
       fixtures: {}
+- proto: SignDirectionalDorms
+  entities:
+  - uid: 2932
+    components:
+    - type: Transform
+      pos: 1.5,2.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
 - proto: SignElectricalMed
   entities:
   - uid: 1953
@@ -16267,6 +16370,14 @@ entities:
     - type: Transform
       pos: 17.5,-4.5
       parent: 2
+- proto: SurveillanceCameraGeneral
+  entities:
+  - uid: 2929
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -4.5,-11.5
+      parent: 2
 - proto: SurveillanceCameraRouterSecurity
   entities:
   - uid: 2021
@@ -16723,6 +16834,16 @@ entities:
     components:
     - type: Transform
       pos: -8.5,2.5
+      parent: 2
+  - uid: 2914
+    components:
+    - type: Transform
+      pos: -15.5,-11.5
+      parent: 2
+  - uid: 2915
+    components:
+    - type: Transform
+      pos: -15.5,-12.5
       parent: 2
 - proto: TargetStrange
   entities:

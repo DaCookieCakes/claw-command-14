@@ -37,7 +37,7 @@
 - type: startingGear
   id: ClawCommandOfficerGear
   equipment:
-    eyes: ClothingEyesHudMedSec
+    eyes: ClothingEyesGlassesSecurity
     ears: ClothingHeadsetAltSecurity
     pocket1: WeaponPistolMk58
     id: ClawCommandOfficerPDA
@@ -90,11 +90,11 @@
 - type: startingGear
   id: ClawCommandMaidGear
   equipment:
-    eyes: ClothingEyesHudMedSec
-    ears: ClothingHeadsetCommand
+    eyes: ClothingEyesGlassesSecurity
+    ears: ClothingHeadsetAltSecurity
     #pocket1: WeaponPistolMk58
     belt: CC14WeaponMeleeKatana
-    id: CC14ClawCommandMaidPDA
+    id: ClawCommandMaidPDA
   storage:
     back:
     - Flash

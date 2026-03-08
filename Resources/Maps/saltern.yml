@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/06/2026 06:16:48
-  entityCount: 12510
+  time: 03/08/2026 00:49:17
+  entityCount: 12528
 maps:
 - 658
 grids:
@@ -837,7 +837,7 @@ entities:
             2: 57344
           8,5:
             0: 272
-            4: 17472
+            3: 17472
           8,6:
             2: 65345
           8,7:
@@ -878,10 +878,10 @@ entities:
             0: 53759
           11,2:
             0: 4319
-            3: 49152
+            4: 49152
           11,3:
             0: 61457
-            3: 204
+            4: 204
           11,-1:
             0: 30583
           11,4:
@@ -893,9 +893,9 @@ entities:
             0: 28791
           12,2:
             0: 119
-            3: 28672
+            4: 28672
           12,3:
-            3: 119
+            4: 119
             0: 61440
           12,-1:
             0: 29311
@@ -1340,16 +1340,16 @@ entities:
             2: 65534
           9,5:
             5: 4368
-            3: 17472
+            4: 17472
           9,6:
             2: 7936
           10,5:
-            3: 4368
+            4: 4368
             6: 17472
           10,6:
             2: 3840
           11,5:
-            3: 21840
+            4: 21840
           11,6:
             2: 3856
           12,5:
@@ -1630,11 +1630,11 @@ entities:
           moles: {}
         - volume: 2500
           temperature: 293.15
-          moles: {}
-        - volume: 2500
-          temperature: 293.15
           moles:
             Nitrogen: 6666.982
+        - volume: 2500
+          temperature: 293.15
+          moles: {}
         - volume: 2500
           temperature: 293.15
           moles:
@@ -27401,6 +27401,18 @@ entities:
       rot: 3.141592653589793 rad
       pos: 46.5,-3.5
       parent: 31
+  - uid: 12520
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 19.5,-55.5
+      parent: 31
+  - uid: 12521
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 21.5,-55.5
+      parent: 31
 - proto: ChairFolding
   entities:
   - uid: 1042
@@ -27952,6 +27964,11 @@ entities:
     components:
     - type: Transform
       pos: -21.49966,9.580566
+      parent: 31
+  - uid: 12511
+    components:
+    - type: Transform
+      pos: 20.48663,-55.384087
       parent: 31
 - proto: ChurchOrganInstrument
   entities:
@@ -30068,6 +30085,13 @@ entities:
     - type: Transform
       pos: -19.5,-36.5
       parent: 31
+- proto: CrateFunBoardGames
+  entities:
+  - uid: 12523
+    components:
+    - type: Transform
+      pos: 14.5,-48.5
+      parent: 31
 - proto: CrateHydroponics
   entities:
   - uid: 9679
@@ -30451,6 +30475,13 @@ entities:
     components:
     - type: Transform
       pos: -30.5,-16.5
+      parent: 31
+- proto: DefaultStationBeaconDorms
+  entities:
+  - uid: 12515
+    components:
+    - type: Transform
+      pos: 22.5,-47.5
       parent: 31
 - proto: DefaultStationBeaconEngineering
   entities:
@@ -45313,6 +45344,7 @@ entities:
       pos: 19.5,-66.5
       parent: 31
     - type: Physics
+      canCollide: True
       bodyType: Dynamic
 - proto: GasPipeTJunction
   entities:
@@ -52988,6 +53020,13 @@ entities:
     - type: Transform
       pos: -8.471462,20.4352
       parent: 31
+- proto: MagicDiceBag
+  entities:
+  - uid: 12522
+    components:
+    - type: Transform
+      pos: 20.38988,-55.275223
+      parent: 31
 - proto: MaintenanceFluffSpawner
   entities:
   - uid: 113
@@ -58123,6 +58162,18 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -28.5,-11.5
       parent: 31
+- proto: RandomVendingClothing
+  entities:
+  - uid: 12527
+    components:
+    - type: Transform
+      pos: 6.5,-41.5
+      parent: 31
+  - uid: 12528
+    components:
+    - type: Transform
+      pos: 6.5,-42.5
+      parent: 31
 - proto: RandomVendingDrinks
   entities:
   - uid: 4027
@@ -58130,12 +58181,22 @@ entities:
     - type: Transform
       pos: -5.5,-17.5
       parent: 31
+  - uid: 12525
+    components:
+    - type: Transform
+      pos: 9.5,-56.5
+      parent: 31
 - proto: RandomVendingSnacks
   entities:
   - uid: 5092
     components:
     - type: Transform
       pos: -3.5,1.5
+      parent: 31
+  - uid: 12526
+    components:
+    - type: Transform
+      pos: 9.5,-55.5
       parent: 31
 - proto: RCD
   entities:
@@ -61448,6 +61509,20 @@ entities:
       parent: 31
     - type: Fixtures
       fixtures: {}
+  - uid: 12517
+    components:
+    - type: Transform
+      pos: 1.5,-12.5
+      parent: 31
+    - type: Fixtures
+      fixtures: {}
+  - uid: 12518
+    components:
+    - type: Transform
+      pos: 5.5,-28.5
+      parent: 31
+    - type: Fixtures
+      fixtures: {}
 - proto: SignDirectionalEng
   entities:
   - uid: 141
@@ -63939,6 +64014,29 @@ entities:
       - SurveillanceCameraGeneral
       nameSet: True
       id: Science Hall
+  - uid: 12512
+    components:
+    - type: Transform
+      pos: 5.5,-39.5
+      parent: 31
+  - uid: 12513
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 9.5,-50.5
+      parent: 31
+  - uid: 12514
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 17.5,-57.5
+      parent: 31
+  - uid: 12516
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 47.5,-42.5
+      parent: 31
 - proto: SurveillanceCameraMedical
   entities:
   - uid: 9157
@@ -65026,6 +65124,11 @@ entities:
     components:
     - type: Transform
       pos: 22.5,-9.5
+      parent: 31
+  - uid: 12519
+    components:
+    - type: Transform
+      pos: 20.5,-55.5
       parent: 31
 - proto: TablePlasmaGlass
   entities:
@@ -76169,6 +76272,11 @@ entities:
     components:
     - type: Transform
       pos: 31.5,2.5
+      parent: 31
+  - uid: 12524
+    components:
+    - type: Transform
+      pos: 14.5,-55.5
       parent: 31
 - proto: WaterTankFull
   entities:

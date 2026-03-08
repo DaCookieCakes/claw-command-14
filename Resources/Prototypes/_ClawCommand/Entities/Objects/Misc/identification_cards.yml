@@ -3,6 +3,7 @@
   id: ClawCommandIDCard
   suffix: Claw Command
   name: claw command officer ID card
+  description: The C of Claw Command is engraved on the front.
   components:
   - type: Sprite
     sprite: _ClawCommand/Objects/Misc/id_cards.rsi
@@ -35,6 +36,7 @@
   id: ClawCommandMaidIDCard
   suffix: Claw Command
   name: claw command officer ID card
+  description: The C of Claw Command is engraved on the front.
   components:
   - type: Sprite
     sprite: _ClawCommand/Objects/Misc/id_cards.rsi

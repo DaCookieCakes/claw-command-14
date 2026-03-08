@@ -3,7 +3,7 @@
   id: ClawCommandOfficerPDA
   suffix: Claw Command
   name: claw command officer PDA
-  description: The red C of Claw Command is engraved on the front.
+  description: The red C of Claw Command is engraved on the back.
   components:
   - type: Pda
     id: ClawCommandIDCard
@@ -39,10 +39,10 @@
 
 - type: entity
   parent: BasePDA
-  id: CC14ClawCommandMaidPDA
+  id: ClawCommandMaidPDA
   suffix: Claw Command
   name: claw command maid PDA
-  description: The red C of Claw Command is engraved on the front.
+  description: The red C of Claw Command is engraved on the back.
   components:
   - type: Pda
     id: ClawCommandMaidIDCard
@@ -74,4 +74,4 @@
         !type:String
         pda
   - type: PdaBorderColor
-    borderColor: "#3c94c5"
+    borderColor: "#c53c5c"
