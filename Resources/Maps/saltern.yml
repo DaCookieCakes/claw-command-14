@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/08/2026 00:49:17
-  entityCount: 12528
+  time: 03/08/2026 03:26:23
+  entityCount: 12532
 maps:
 - 658
 grids:
@@ -33818,6 +33818,28 @@ entities:
     components:
     - type: Transform
       pos: -3.5586867,-1.3939255
+      parent: 31
+- proto: DrinkLean
+  entities:
+  - uid: 12529
+    components:
+    - type: Transform
+      pos: 2.6131895,-54.42626
+      parent: 31
+  - uid: 12530
+    components:
+    - type: Transform
+      pos: 2.4048562,-54.30126
+      parent: 31
+  - uid: 12531
+    components:
+    - type: Transform
+      pos: 1.7720317,-50.575832
+      parent: 31
+  - uid: 12532
+    components:
+    - type: Transform
+      pos: 1.542865,-50.388332
       parent: 31
 - proto: DrinkLemonJuice
   entities:

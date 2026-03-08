@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/08/2026 00:47:44
-  entityCount: 19759
+  time: 03/08/2026 03:28:04
+  entityCount: 19787
 maps:
 - 1793
 grids:
@@ -95628,6 +95628,148 @@ entities:
     components:
     - type: Transform
       pos: 45.5,72.5
+      parent: 1
+- proto: RandomPosterAny
+  entities:
+  - uid: 19760
+    components:
+    - type: Transform
+      pos: 18.5,125.5
+      parent: 1
+  - uid: 19761
+    components:
+    - type: Transform
+      pos: 10.5,116.5
+      parent: 1
+  - uid: 19762
+    components:
+    - type: Transform
+      pos: 10.5,118.5
+      parent: 1
+  - uid: 19763
+    components:
+    - type: Transform
+      pos: 10.5,123.5
+      parent: 1
+  - uid: 19764
+    components:
+    - type: Transform
+      pos: 14.5,125.5
+      parent: 1
+  - uid: 19765
+    components:
+    - type: Transform
+      pos: 17.5,113.5
+      parent: 1
+  - uid: 19766
+    components:
+    - type: Transform
+      pos: 7.5,154.5
+      parent: 1
+  - uid: 19767
+    components:
+    - type: Transform
+      pos: 21.5,125.5
+      parent: 1
+  - uid: 19768
+    components:
+    - type: Transform
+      pos: 28.5,131.5
+      parent: 1
+  - uid: 19769
+    components:
+    - type: Transform
+      pos: 21.5,134.5
+      parent: 1
+  - uid: 19770
+    components:
+    - type: Transform
+      pos: 21.5,139.5
+      parent: 1
+  - uid: 19771
+    components:
+    - type: Transform
+      pos: 21.5,143.5
+      parent: 1
+  - uid: 19772
+    components:
+    - type: Transform
+      pos: 21.5,150.5
+      parent: 1
+  - uid: 19773
+    components:
+    - type: Transform
+      pos: 12.5,152.5
+      parent: 1
+  - uid: 19774
+    components:
+    - type: Transform
+      pos: 11.5,155.5
+      parent: 1
+  - uid: 19775
+    components:
+    - type: Transform
+      pos: 7.5,151.5
+      parent: 1
+  - uid: 19776
+    components:
+    - type: Transform
+      pos: 7.5,146.5
+      parent: 1
+  - uid: 19777
+    components:
+    - type: Transform
+      pos: 9.5,140.5
+      parent: 1
+  - uid: 19778
+    components:
+    - type: Transform
+      pos: 15.5,140.5
+      parent: 1
+  - uid: 19779
+    components:
+    - type: Transform
+      pos: 30.5,143.5
+      parent: 1
+  - uid: 19780
+    components:
+    - type: Transform
+      pos: 33.5,143.5
+      parent: 1
+  - uid: 19781
+    components:
+    - type: Transform
+      pos: 37.5,149.5
+      parent: 1
+  - uid: 19782
+    components:
+    - type: Transform
+      pos: 34.5,128.5
+      parent: 1
+  - uid: 19783
+    components:
+    - type: Transform
+      pos: 28.5,116.5
+      parent: 1
+  - uid: 19784
+    components:
+    - type: Transform
+      pos: 28.5,119.5
+      parent: 1
+  - uid: 19785
+    components:
+    - type: Transform
+      pos: 28.5,122.5
+      parent: 1
+  - uid: 19786
+    components:
+    - type: Transform
+      pos: 28.5,125.5
+      parent: 1
+  - uid: 19787
+    components:
+    - type: Transform
+      pos: 21.5,113.5
       parent: 1
 - proto: RandomPosterContraband
   entities:
