@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/08/2026 22:24:50
-  entityCount: 12532
+  time: 03/09/2026 03:50:21
+  entityCount: 12548
 maps:
 - 658
 grids:
@@ -837,7 +837,7 @@ entities:
             2: 57344
           8,5:
             0: 272
-            3: 17472
+            4: 17472
           8,6:
             2: 65345
           8,7:
@@ -878,10 +878,10 @@ entities:
             0: 53759
           11,2:
             0: 4319
-            4: 49152
+            3: 49152
           11,3:
             0: 61457
-            4: 204
+            3: 204
           11,-1:
             0: 30583
           11,4:
@@ -893,9 +893,9 @@ entities:
             0: 28791
           12,2:
             0: 119
-            4: 28672
+            3: 28672
           12,3:
-            4: 119
+            3: 119
             0: 61440
           12,-1:
             0: 29311
@@ -1340,16 +1340,16 @@ entities:
             2: 65534
           9,5:
             5: 4368
-            4: 17472
+            3: 17472
           9,6:
             2: 7936
           10,5:
-            4: 4368
+            3: 4368
             6: 17472
           10,6:
             2: 3840
           11,5:
-            4: 21840
+            3: 21840
           11,6:
             2: 3856
           12,5:
@@ -1630,11 +1630,11 @@ entities:
           moles: {}
         - volume: 2500
           temperature: 293.15
-          moles:
-            Nitrogen: 6666.982
+          moles: {}
         - volume: 2500
           temperature: 293.15
-          moles: {}
+          moles:
+            Nitrogen: 6666.982
         - volume: 2500
           temperature: 293.15
           moles:
@@ -16950,6 +16950,56 @@ entities:
     - type: Transform
       pos: 41.5,-52.5
       parent: 31
+  - uid: 12533
+    components:
+    - type: Transform
+      pos: 19.5,-44.5
+      parent: 31
+  - uid: 12534
+    components:
+    - type: Transform
+      pos: 19.5,-43.5
+      parent: 31
+  - uid: 12535
+    components:
+    - type: Transform
+      pos: 19.5,-42.5
+      parent: 31
+  - uid: 12536
+    components:
+    - type: Transform
+      pos: 23.5,-43.5
+      parent: 31
+  - uid: 12537
+    components:
+    - type: Transform
+      pos: 23.5,-42.5
+      parent: 31
+  - uid: 12538
+    components:
+    - type: Transform
+      pos: 15.5,-44.5
+      parent: 31
+  - uid: 12539
+    components:
+    - type: Transform
+      pos: 15.5,-43.5
+      parent: 31
+  - uid: 12540
+    components:
+    - type: Transform
+      pos: 15.5,-42.5
+      parent: 31
+  - uid: 12541
+    components:
+    - type: Transform
+      pos: 23.5,-47.5
+      parent: 31
+  - uid: 12542
+    components:
+    - type: Transform
+      pos: 24.5,-47.5
+      parent: 31
 - proto: CableApcStack
   entities:
   - uid: 94
@@ -27452,6 +27502,14 @@ entities:
     components:
     - type: Transform
       pos: -41.5,-9.5
+      parent: 31
+- proto: ChairGreyscale
+  entities:
+  - uid: 12547
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 9.5,-50.5
       parent: 31
 - proto: ChairOfficeDark
   entities:
@@ -51231,6 +51289,12 @@ entities:
       rot: 3.141592653589793 rad
       pos: 26.5,-49.5
       parent: 31
+  - uid: 12548
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,-49.5
+      parent: 31
 - proto: GrilleBroken
   entities:
   - uid: 80
@@ -52418,6 +52482,11 @@ entities:
     components:
     - type: Transform
       pos: -2.5,1.5
+      parent: 31
+  - uid: 12545
+    components:
+    - type: Transform
+      pos: 15.5,-55.5
       parent: 31
 - proto: KalimbaInstrument
   entities:
@@ -54030,6 +54099,12 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -4.5,1.5
+      parent: 31
+  - uid: 12546
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 9.5,-49.5
       parent: 31
 - proto: PillCanister
   entities:
@@ -56978,11 +57053,29 @@ entities:
       rot: 3.141592653589793 rad
       pos: -12.5,-39.5
       parent: 31
+  - uid: 11507
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 23.5,-42.5
+      parent: 31
   - uid: 12364
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 17.5,-60.5
+      parent: 31
+  - uid: 12543
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 20.5,-42.5
+      parent: 31
+  - uid: 12544
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 16.5,-42.5
       parent: 31
 - proto: PoweredSmallLightEmpty
   entities:
@@ -57028,12 +57121,6 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 24.5,-48.5
-      parent: 31
-  - uid: 12366
-    components:
-    - type: Transform
-      rot: 3.141592653589793 rad
-      pos: 23.5,-42.5
       parent: 31
   - uid: 12367
     components:
@@ -60228,6 +60315,12 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 26.5,-47.5
+      parent: 31
+  - uid: 12366
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,-49.5
       parent: 31
 - proto: ResearchAndDevelopmentServer
   entities:
@@ -72070,11 +72163,6 @@ entities:
     components:
     - type: Transform
       pos: 8.5,-50.5
-      parent: 31
-  - uid: 11507
-    components:
-    - type: Transform
-      pos: 8.5,-49.5
       parent: 31
   - uid: 11508
     components:

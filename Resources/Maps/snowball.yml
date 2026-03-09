@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/08/2026 22:23:29
-  entityCount: 19787
+  time: 03/09/2026 04:09:15
+  entityCount: 19795
 maps:
 - 1793
 grids:
@@ -44784,6 +44784,14 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 70.51371,108.6677
       parent: 1
+- proto: ChairGreyscale
+  entities:
+  - uid: 19789
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,142.5
+      parent: 1
 - proto: ChairOfficeDark
   entities:
   - uid: 211
@@ -47432,6 +47440,34 @@ entities:
     components:
     - type: Transform
       pos: 37.5,46.5
+      parent: 1
+- proto: CrateFunBoardGames
+  entities:
+  - uid: 19791
+    components:
+    - type: Transform
+      pos: 30.5,159.5
+      parent: 1
+- proto: CrateFunInstrumentsVariety
+  entities:
+  - uid: 19792
+    components:
+    - type: Transform
+      pos: 19.5,159.5
+      parent: 1
+- proto: CrateFunToyBox
+  entities:
+  - uid: 19794
+    components:
+    - type: Transform
+      pos: 24.5,159.5
+      parent: 1
+- proto: CrateFunWaterGuns
+  entities:
+  - uid: 19793
+    components:
+    - type: Transform
+      pos: 11.5,124.5
       parent: 1
 - proto: CrateLockBoxEngineering
   entities:
@@ -89257,6 +89293,13 @@ entities:
     - type: Transform
       pos: 32.375443,30.639854
       parent: 1
+- proto: Jukebox
+  entities:
+  - uid: 19790
+    components:
+    - type: Transform
+      pos: 16.5,151.5
+      parent: 1
 - proto: KitchenElectricGrill
   entities:
   - uid: 12323
@@ -100354,6 +100397,14 @@ entities:
       parent: 1
     - type: Fixtures
       fixtures: {}
+  - uid: 19795
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 27.5,107.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
 - proto: SignDirectionalEng
   entities:
   - uid: 1826
@@ -107175,6 +107226,14 @@ entities:
       - Arsenal
       - Experimental
       - CivilianServices
+- proto: UprightPianoInstrument
+  entities:
+  - uid: 19788
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,143.5
+      parent: 1
 - proto: Vaccinator
   entities:
   - uid: 17643
