@@ -51003,13 +51003,6 @@ entities:
     - type: Transform
       pos: 39.455097,-25.454304
       parent: 60
-- proto: CaptainIDCard
-  entities:
-  - uid: 23919
-    components:
-    - type: Transform
-      pos: -8.433568,-5.5107408
-      parent: 60
 - proto: CarbonDioxideCanister
   entities:
   - uid: 15245

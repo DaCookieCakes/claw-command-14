@@ -4,7 +4,7 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/08/2026 03:26:23
+  time: 03/08/2026 22:24:50
   entityCount: 12532
 maps:
 - 658
@@ -23458,13 +23458,6 @@ entities:
     components:
     - type: Transform
       pos: 6.4716253,-3.2451885
-      parent: 31
-- proto: CaptainIDCard
-  entities:
-  - uid: 4684
-    components:
-    - type: Transform
-      pos: 6.5105124,24.655684
       parent: 31
 - proto: CarbonDioxideCanister
   entities:
@@ -62783,6 +62776,16 @@ entities:
     - type: Transform
       pos: 12.5,-31.5
       parent: 31
+- proto: SpareIdCabinetFilled
+  entities:
+  - uid: 4684
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -3.5,28.5
+      parent: 31
+    - type: Fixtures
+      fixtures: {}
 - proto: SpawnMobAlexander
   entities:
   - uid: 9917

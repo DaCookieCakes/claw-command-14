@@ -4,7 +4,7 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/08/2026 03:28:04
+  time: 03/08/2026 22:23:29
   entityCount: 19787
 maps:
 - 1793
@@ -40843,13 +40843,6 @@ entities:
     components:
     - type: Transform
       pos: 46.5,46.5
-      parent: 1
-- proto: CaptainIDCard
-  entities:
-  - uid: 15014
-    components:
-    - type: Transform
-      pos: 21.500158,44.602745
       parent: 1
 - proto: CargoMailTeleporter
   entities:
@@ -101507,6 +101500,16 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 43.5,52.5
       parent: 1
+- proto: SpareIdCabinetFilled
+  entities:
+  - uid: 15014
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 20.5,47.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
 - proto: SpawnMechRipley
   entities:
   - uid: 5016
