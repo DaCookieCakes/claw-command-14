@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/08/2026 00:47:44
-  entityCount: 19759
+  time: 03/09/2026 04:09:15
+  entityCount: 19795
 maps:
 - 1793
 grids:
@@ -40844,13 +40844,6 @@ entities:
     - type: Transform
       pos: 46.5,46.5
       parent: 1
-- proto: CaptainIDCard
-  entities:
-  - uid: 15014
-    components:
-    - type: Transform
-      pos: 21.500158,44.602745
-      parent: 1
 - proto: CargoMailTeleporter
   entities:
   - uid: 7822
@@ -44791,6 +44784,14 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 70.51371,108.6677
       parent: 1
+- proto: ChairGreyscale
+  entities:
+  - uid: 19789
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,142.5
+      parent: 1
 - proto: ChairOfficeDark
   entities:
   - uid: 211
@@ -47439,6 +47440,34 @@ entities:
     components:
     - type: Transform
       pos: 37.5,46.5
+      parent: 1
+- proto: CrateFunBoardGames
+  entities:
+  - uid: 19791
+    components:
+    - type: Transform
+      pos: 30.5,159.5
+      parent: 1
+- proto: CrateFunInstrumentsVariety
+  entities:
+  - uid: 19792
+    components:
+    - type: Transform
+      pos: 19.5,159.5
+      parent: 1
+- proto: CrateFunToyBox
+  entities:
+  - uid: 19794
+    components:
+    - type: Transform
+      pos: 24.5,159.5
+      parent: 1
+- proto: CrateFunWaterGuns
+  entities:
+  - uid: 19793
+    components:
+    - type: Transform
+      pos: 11.5,124.5
       parent: 1
 - proto: CrateLockBoxEngineering
   entities:
@@ -89264,6 +89293,13 @@ entities:
     - type: Transform
       pos: 32.375443,30.639854
       parent: 1
+- proto: Jukebox
+  entities:
+  - uid: 19790
+    components:
+    - type: Transform
+      pos: 16.5,151.5
+      parent: 1
 - proto: KitchenElectricGrill
   entities:
   - uid: 12323
@@ -95629,6 +95665,148 @@ entities:
     - type: Transform
       pos: 45.5,72.5
       parent: 1
+- proto: RandomPosterAny
+  entities:
+  - uid: 19760
+    components:
+    - type: Transform
+      pos: 18.5,125.5
+      parent: 1
+  - uid: 19761
+    components:
+    - type: Transform
+      pos: 10.5,116.5
+      parent: 1
+  - uid: 19762
+    components:
+    - type: Transform
+      pos: 10.5,118.5
+      parent: 1
+  - uid: 19763
+    components:
+    - type: Transform
+      pos: 10.5,123.5
+      parent: 1
+  - uid: 19764
+    components:
+    - type: Transform
+      pos: 14.5,125.5
+      parent: 1
+  - uid: 19765
+    components:
+    - type: Transform
+      pos: 17.5,113.5
+      parent: 1
+  - uid: 19766
+    components:
+    - type: Transform
+      pos: 7.5,154.5
+      parent: 1
+  - uid: 19767
+    components:
+    - type: Transform
+      pos: 21.5,125.5
+      parent: 1
+  - uid: 19768
+    components:
+    - type: Transform
+      pos: 28.5,131.5
+      parent: 1
+  - uid: 19769
+    components:
+    - type: Transform
+      pos: 21.5,134.5
+      parent: 1
+  - uid: 19770
+    components:
+    - type: Transform
+      pos: 21.5,139.5
+      parent: 1
+  - uid: 19771
+    components:
+    - type: Transform
+      pos: 21.5,143.5
+      parent: 1
+  - uid: 19772
+    components:
+    - type: Transform
+      pos: 21.5,150.5
+      parent: 1
+  - uid: 19773
+    components:
+    - type: Transform
+      pos: 12.5,152.5
+      parent: 1
+  - uid: 19774
+    components:
+    - type: Transform
+      pos: 11.5,155.5
+      parent: 1
+  - uid: 19775
+    components:
+    - type: Transform
+      pos: 7.5,151.5
+      parent: 1
+  - uid: 19776
+    components:
+    - type: Transform
+      pos: 7.5,146.5
+      parent: 1
+  - uid: 19777
+    components:
+    - type: Transform
+      pos: 9.5,140.5
+      parent: 1
+  - uid: 19778
+    components:
+    - type: Transform
+      pos: 15.5,140.5
+      parent: 1
+  - uid: 19779
+    components:
+    - type: Transform
+      pos: 30.5,143.5
+      parent: 1
+  - uid: 19780
+    components:
+    - type: Transform
+      pos: 33.5,143.5
+      parent: 1
+  - uid: 19781
+    components:
+    - type: Transform
+      pos: 37.5,149.5
+      parent: 1
+  - uid: 19782
+    components:
+    - type: Transform
+      pos: 34.5,128.5
+      parent: 1
+  - uid: 19783
+    components:
+    - type: Transform
+      pos: 28.5,116.5
+      parent: 1
+  - uid: 19784
+    components:
+    - type: Transform
+      pos: 28.5,119.5
+      parent: 1
+  - uid: 19785
+    components:
+    - type: Transform
+      pos: 28.5,122.5
+      parent: 1
+  - uid: 19786
+    components:
+    - type: Transform
+      pos: 28.5,125.5
+      parent: 1
+  - uid: 19787
+    components:
+    - type: Transform
+      pos: 21.5,113.5
+      parent: 1
 - proto: RandomPosterContraband
   entities:
   - uid: 80
@@ -100219,6 +100397,14 @@ entities:
       parent: 1
     - type: Fixtures
       fixtures: {}
+  - uid: 19795
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 27.5,107.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
 - proto: SignDirectionalEng
   entities:
   - uid: 1826
@@ -101365,6 +101551,16 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 43.5,52.5
       parent: 1
+- proto: SpareIdCabinetFilled
+  entities:
+  - uid: 15014
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 20.5,47.5
+      parent: 1
+    - type: Fixtures
+      fixtures: {}
 - proto: SpawnMechRipley
   entities:
   - uid: 5016
@@ -107030,6 +107226,14 @@ entities:
       - Arsenal
       - Experimental
       - CivilianServices
+- proto: UprightPianoInstrument
+  entities:
+  - uid: 19788
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,143.5
+      parent: 1
 - proto: Vaccinator
   entities:
   - uid: 17643

@@ -27,6 +27,7 @@
     - BaseStationAllEventsEligible
     - BaseStationNanotrasen
     - BaseStationDeliveries
+    - BaseStationCaptainState
   categories: [ HideSpawnMenu ]
   components:
     - type: Transform

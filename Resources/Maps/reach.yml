@@ -4,8 +4,8 @@ meta:
   engineVersion: 272.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/07/2026 23:58:09
-  entityCount: 2932
+  time: 03/08/2026 22:24:23
+  entityCount: 2933
 maps:
 - 1
 grids:
@@ -12914,10 +12914,10 @@ entities:
       parent: 2
 - proto: HoPIDCard
   entities:
-  - uid: 1623
+  - uid: 2933
     components:
     - type: Transform
-      pos: 24.549932,2.4577096
+      pos: 24.61159,2.4795637
       parent: 2
 - proto: HydroponicsToolClippers
   entities:
@@ -16004,6 +16004,16 @@ entities:
     - type: Transform
       pos: 6.5,-15.5
       parent: 2
+- proto: SpareIdCabinetFilled
+  entities:
+  - uid: 1623
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 20.5,1.5
+      parent: 2
+    - type: Fixtures
+      fixtures: {}
 - proto: SpawnMobCorgi
   entities:
   - uid: 1976
