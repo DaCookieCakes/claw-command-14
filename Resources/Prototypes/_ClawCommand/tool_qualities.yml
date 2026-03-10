@@ -1,0 +1,6 @@
+- type: tool
+  id: CC14ToolGlass
+  name: cc14-tool-quality-glass-name
+  toolName: cc14-tool-quality-glass-tool-name
+  spawn: SheetGlass1
+  icon: { sprite: /Textures/Objects/Materials/Sheets/glass.rsi, state: glass }

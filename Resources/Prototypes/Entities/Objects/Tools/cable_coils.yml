@@ -82,6 +82,13 @@
           Quantity: 2
         - ReagentId: Carbon #steel-reinforced
           Quantity: 1
+  - type: Healing
+    damageContainers:
+    - CC14DamageIPC
+    damage:
+      types:
+        Heat: -7.5
+        Shock: -7.5
 
 - type: entity
   parent: CableHVStack
@@ -138,6 +145,13 @@
           Quantity: 3
         - ReagentId: Copper
           Quantity: 2
+  - type: Healing
+    damageContainers:
+    - CC14DamageIPC
+    damage:
+      types:
+        Heat: -5
+        Shock: -5
 
 - type: entity
   parent: CableMVStack
@@ -193,6 +207,13 @@
           Quantity: 3
         - ReagentId: Copper
           Quantity: 2
+  - type: Healing
+    damageContainers:
+    - CC14DamageIPC
+    damage:
+      types:
+        Heat: -2.5
+        Shock: -2.5
 
 - type: entity
   parent: CableApcStack

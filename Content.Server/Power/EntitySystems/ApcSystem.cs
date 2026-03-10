@@ -1,18 +1,27 @@
 using Content.Server.Popups;
 using Content.Server.Power.Components;
 using Content.Server.Power.Pow3r;
+using Content.Shared._ClawCommand.IPC;
 using Content.Shared.Access.Systems;
 using Content.Shared.Administration.Logs;
 using Content.Shared.APC;
 using Content.Shared.Database;
+using Content.Shared.DoAfter;
 using Content.Shared.Emag.Systems;
 using Content.Shared.Emp;
+using Content.Shared.Mobs.Systems;
 using Content.Shared.Popups;
 using Content.Shared.Power;
+using Content.Shared.Power.Components;
+using Content.Shared.Power.EntitySystems;
+using Content.Shared.PowerCell;
+using Content.Shared.PowerCell.Components;
 using Content.Shared.Rounding;
+using Content.Shared.Verbs;
 using Robust.Server.GameObjects;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Systems;
+using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 
 namespace Content.Server.Power.EntitySystems;
@@ -28,6 +37,12 @@ public sealed class ApcSystem : EntitySystem
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly UserInterfaceSystem _ui = default!;
 
+    // CLAW COMMAND SPECIFIC //
+    [Dependency] private readonly SharedBatterySystem _battery = default!;
+    [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
+    [Dependency] private readonly PowerCellSystem _powerCell = default!;
+    private readonly EntProtoId _sparkEffect = "EffectSparks";
+
     public override void Initialize()
     {
         base.Initialize();
@@ -41,6 +56,55 @@ public sealed class ApcSystem : EntitySystem
         SubscribeLocalEvent<ApcComponent, GotEmaggedEvent>(OnEmagged);
 
         SubscribeLocalEvent<ApcComponent, EmpPulseEvent>(OnEmpPulse);
+
+        // CLAW COMMAND SPECIFIC //
+        SubscribeLocalEvent<ApcComponent, GetVerbsEvent<Verb>>(OnGetVerbs);
+        SubscribeLocalEvent<IpcComponent, IpcChargeAfterEvent>(OnCharge);
+    }
+
+    // CLAW COMMAND SPECIFIC //
+    private void OnGetVerbs(EntityUid uid, ApcComponent component, GetVerbsEvent<Verb> args)
+    {
+        if (!TryComp<IpcComponent>(args.User, out var ipcComp))
+            return;
+
+        if (!component.MainBreakerEnabled)
+            return;
+
+        // Check IPC has a power cell that needs charging
+        if (!TryComp<PowerCellSlotComponent>(args.User, out var cellSlot))
+            return;
+
+        if (!_powerCell.TryGetBatteryFromSlot(args.User, out var battery) || _battery.GetCharge(battery.Value.Owner) >= battery.Value.Comp.MaxCharge)
+            return;
+
+        args.Verbs.Add(new Verb
+        {
+            Text = Loc.GetString("cc14-ipc-charge-verb"),
+            Act = () =>
+            {
+                _doAfter.TryStartDoAfter(
+                    new DoAfterArgs(EntityManager, args.User, 3f, new IpcChargeAfterEvent(), args.User, uid)
+                    {
+                        BreakOnMove = true,
+                        NeedHand = false,
+                    });
+            }
+        });
+    }
+
+    // CLAW COMMAND SPECIFIC //
+    private void OnCharge(EntityUid uid, IpcComponent comp, IpcChargeAfterEvent args)
+    {
+        if (args.Cancelled)
+            return;
+
+        if (!_powerCell.TryGetBatteryFromSlot(uid, out var battery))
+            return;
+
+        _audio.PlayEntity(comp.ChargeSound, args.User, args.Target!.Value);
+        _battery.SetCharge(battery.Value.Owner, battery.Value.Comp.MaxCharge);
+        Spawn(_sparkEffect, Transform(args.Target.Value).Coordinates);
     }
 
     public override void Update(float deltaTime)

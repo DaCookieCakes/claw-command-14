@@ -4,52 +4,52 @@
   onlyGroupWhitelisted: false
   limits:
     enum.HumanoidVisualLayers.Hair:
-      limit: 0
+      limit: 1
       required: false
     enum.HumanoidVisualLayers.FacialHair:
       limit: 1
       required: false
     enum.HumanoidVisualLayers.Tail:
-      limit: 0
+      limit: 1
       required: false
     enum.HumanoidVisualLayers.Chest:
-      limit: 0
+      limit: 1
       required: false
     enum.HumanoidVisualLayers.Snout:
       limit: 0
       required: false
     enum.HumanoidVisualLayers.Head:
-      limit: 0
+      limit: 1
       required: false
     enum.HumanoidVisualLayers.HeadTop:
       limit: 1
       required: false
     enum.HumanoidVisualLayers.HeadSide:
-      limit: 0
+      limit: 1
       required: false
     enum.HumanoidVisualLayers.LArm:
-      limit: 0
+      limit: 1
       required: false
     enum.HumanoidVisualLayers.RArm:
-      limit: 0
+      limit: 1
       required: false
     enum.HumanoidVisualLayers.LHand:
-      limit: 0
+      limit: 1
       required: false
     enum.HumanoidVisualLayers.RHand:
-      limit: 0
+      limit: 1
       required: false
     enum.HumanoidVisualLayers.LLeg:
-      limit: 0
+      limit: 1
       required: false
     enum.HumanoidVisualLayers.RLeg:
-      limit: 0
+      limit: 1
       required: false
     enum.HumanoidVisualLayers.LFoot:
-      limit: 0
+      limit: 1
       required: false
     enum.HumanoidVisualLayers.RFoot:
-      limit: 0
+      limit: 1
       required: false
 
 - type: entity
@@ -80,17 +80,21 @@
       FootRight: CC14OrganIPCFootRight
   - type: HumanoidProfile
     species: CC14SpeciesIPC
+  - type: NameIdentifier
+    group: Silicon
 
 - type: entity
   parent:
   - CC14AppearanceIPC
   - BaseSpeciesMob
   id: CC14MobIPC
-  name: Urist McMachine
+  name: Urist McMachina
   suffix: Claw Command
   components:
   - type: Vocal
     sounds:
+      Male: UnisexSilicon
+      Female: UnisexSilicon
       Unsexed: UnisexSilicon
   - type: DamagedSiliconAccent
   - type: Speech
@@ -98,8 +102,6 @@
     speechSounds: Borg
     allowedEmotes:
     - Laugh
-  - type: Damageable
-    damageModifierSet: CC14ModifierSetIPC
   - type: InteractionPopup
     successChance: 1
     interactSuccessString: petting-success-generic
@@ -117,6 +119,51 @@
     slots:
       cell_slot:
         name: power-cell-slot-component-slot-name-default
-  - type: Lock
-    locked: true
-    unlockOnClick: false
+        startingItem: PowerCellMedium
+        locked: true
+        lockedMessage: ipc-cell-slot-locked
+        whitelist:
+          components:
+          - PowerCell
+  - type: MobThresholds
+    thresholds:
+      0: Alive
+      100: Critical
+      200: Dead
+    stateAlertDict:
+      Alive: BorgHealth
+      Critical: BorgCrit
+      Dead: BorgDead
+  - type: MultiRepairable
+    entries:
+    - qualityNeeded: Welding
+      fuelCost: 1
+      damage:
+        groups:
+          Brute: -15
+    - qualityNeeded: CC14ToolGlass
+      doAfterDelay: 10
+      eyeHeal: -5
+  - type: Damageable
+    damageModifierSet: CC14ModifierSetIPC
+    damageContainer: CC14DamageIPC
+  - type: Ipc
+  - type: ActivatableUI
+    blockSpectators: true # otherwise they can play client-side music
+    inHandsOnly: false
+    singleUser: true
+    requiresComplex: true
+    verbOnly: true
+    verbText: verb-instrument-openui
+    key: enum.InstrumentUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.InstrumentUiKey.Key:
+        type: InstrumentBoundUserInterface
+      enum.StrippingUiKey.Key:
+        type: StrippableBoundUserInterface
+  - type: Instrument
+    allowPercussion: false
+    handheld: false
+    program: 10 # Musicbox. Har har harhar har.
+  - type: Blindable

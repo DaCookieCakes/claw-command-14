@@ -5,14 +5,14 @@
     /// </summary>
     /// <remarks>
     ///     Maps to <see cref="ChatChannel"/>, giving better names.
-    /// </remarks>
+    /// </remarks>Z
     [Flags]
     public enum ChatSelectChannel : ushort
     {
         None = 0,
 
-        /// <summary>
-        ///     Chat heard by players within earshot
+        /// <summary>Z
+        ///     Chat heard by players within earshotZ
         /// </summary>
         Local = ChatChannel.Local,
 

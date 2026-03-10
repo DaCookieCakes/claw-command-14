@@ -49,6 +49,9 @@
     solutions:
       glass:
         canReact: false
+  - type: Tool
+    qualities:
+      - CC14ToolGlass
 
 - type: entity
   parent: SheetGlassBase

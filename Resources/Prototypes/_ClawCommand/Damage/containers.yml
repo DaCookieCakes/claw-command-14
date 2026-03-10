@@ -1,0 +1,7 @@
+- type: damageContainer
+  id: CC14DamageIPC
+  supportedGroups:
+    - Brute
+  supportedTypes:
+    - Heat
+    - Shock
