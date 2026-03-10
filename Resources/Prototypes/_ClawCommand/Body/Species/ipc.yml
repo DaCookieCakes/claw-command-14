@@ -1,0 +1,122 @@
+- type: markingsGroup
+  parent: Undergarments
+  id: CC14MarkingsIPC
+  onlyGroupWhitelisted: false
+  limits:
+    enum.HumanoidVisualLayers.Hair:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.FacialHair:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.Tail:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.Chest:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.Snout:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.Head:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.HeadTop:
+      limit: 1
+      required: false
+    enum.HumanoidVisualLayers.HeadSide:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.LArm:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.RArm:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.LHand:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.RHand:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.LLeg:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.RLeg:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.LFoot:
+      limit: 0
+      required: false
+    enum.HumanoidVisualLayers.RFoot:
+      limit: 0
+      required: false
+
+- type: entity
+  parent: BaseSpeciesAppearance
+  id: CC14AppearanceIPC
+  suffix: Claw Command
+  name: ipc appearance
+  components:
+  - type: Inventory
+    speciesId: CC14SpeciesIPC
+    femaleDisplacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/Human/displacement.rsi
+            state: jumpsuit-female
+  - type: InitialBody
+    organs:
+      Torso: CC14OrganIPCTorso
+      Head: CC14OrganIPCHead
+      ArmLeft: CC14OrganIPCArmLeft
+      ArmRight: CC14OrganIPCArmRight
+      HandRight: CC14OrganIPCHandRight
+      HandLeft: CC14OrganIPCHandLeft
+      LegLeft: CC14OrganIPCLegLeft
+      LegRight: CC14OrganIPCLegRight
+      FootLeft: CC14OrganIPCFootLeft
+      FootRight: CC14OrganIPCFootRight
+  - type: HumanoidProfile
+    species: CC14SpeciesIPC
+
+- type: entity
+  parent:
+  - CC14AppearanceIPC
+  - BaseSpeciesMob
+  id: CC14MobIPC
+  name: Urist McMachine
+  suffix: Claw Command
+  components:
+  - type: Vocal
+    sounds:
+      Unsexed: UnisexSilicon
+  - type: DamagedSiliconAccent
+  - type: Speech
+    speechVerb: Robotic
+    speechSounds: Borg
+    allowedEmotes:
+    - Laugh
+  - type: Damageable
+    damageModifierSet: CC14ModifierSetIPC
+  - type: InteractionPopup
+    successChance: 1
+    interactSuccessString: petting-success-generic
+    interactFailureString: petting-failure-generic
+    interactSuccessSound:
+      path: /Audio/Ambience/Objects/periodic_beep.ogg
+  - type: NameIdentifier
+    group: Silicon
+  - type: PowerCellDraw
+    drawRate: 0.6
+    enabled: true
+  - type: PowerCellSlot
+    cellSlotId: cell_slot
+  - type: ItemSlots
+    slots:
+      cell_slot:
+        name: power-cell-slot-component-slot-name-default
+  - type: Lock
+    locked: true
+    unlockOnClick: false

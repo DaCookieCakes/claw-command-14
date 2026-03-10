@@ -15,6 +15,14 @@
   skinColoration: Hues
 
 - type: species
+  id: CC14SpeciesIPC
+  name: cc-species-name-ipc
+  roundStart: true
+  prototype: CC14MobIPC
+  dollPrototype: CC14AppearanceIPC
+  skinColoration: Hues
+
+- type: species
   id: CC14SpeciesKitsunes
   name: cc-species-name-kitsunes
   roundStart: true

@@ -15,6 +15,17 @@
     Cold: 0.75
 
 - type: damageModifierSet
+  id: CC14ModifierSetIPC
+  coefficients:
+    Blunt: 1.25
+    Slash: 0.8
+    Piercing: 0.8
+    Heat: 1.5
+    Shock: 1.5
+    Cold: 0
+    Radiation: 0
+
+- type: damageModifierSet
   id: CC14ModifierSetKitsune
   coefficients:
     Blunt: 1.20

@@ -1,0 +1,79 @@
+- type: entity
+  parent: OrganBase
+  id: CC14OrganIPC
+  abstract: true
+  suffix: Claw Command, IPC
+
+- type: entity
+  id: CC14OrganIPCMetabolizer
+  abstract: true
+  components:
+  - type: Metabolizer
+    metabolizerTypes: [ CC14MetabolizerIPC ]
+
+- type: entity
+  parent: CC14OrganIPC
+  id: CC14OrganIPCInternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: Mobs/Species/Human/organs.rsi
+
+- type: entity
+  parent: CC14OrganIPC
+  id: CC14OrganIPCExternal
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _DeltaV/Mobs/Species/IPC/parts.rsi
+  - type: VisualOrgan
+    data:
+      sprite: _DeltaV/Mobs/Species/IPC/parts.rsi
+  - type: VisualOrganMarkings
+    markingData:
+      group: CC14MarkingsIPC
+
+- type: entity
+  parent: [ OrganBaseTorsoSexed, OrganBaseTorso, CC14OrganIPCExternal ]
+  id: CC14OrganIPCTorso
+
+- type: entity
+  parent: [ OrganBaseHeadSexed, OrganBaseHead, CC14OrganIPCExternal ]
+  id: CC14OrganIPCHead
+  components:
+  - type: VisualOrganMarkings
+    hideableLayers:
+    - enum.HumanoidVisualLayers.HeadTop
+    - enum.HumanoidVisualLayers.FacialHair
+
+- type: entity
+  parent: [ OrganBaseArmLeft, CC14OrganIPCExternal ]
+  id: CC14OrganIPCArmLeft
+
+- type: entity
+  parent: [ OrganBaseArmRight, CC14OrganIPCExternal ]
+  id: CC14OrganIPCArmRight
+
+- type: entity
+  parent: [ OrganBaseHandLeft, CC14OrganIPCExternal ]
+  id: CC14OrganIPCHandLeft
+
+- type: entity
+  parent: [ OrganBaseHandRight, CC14OrganIPCExternal ]
+  id: CC14OrganIPCHandRight
+
+- type: entity
+  parent: [ OrganBaseLegLeft, CC14OrganIPCExternal ]
+  id: CC14OrganIPCLegLeft
+
+- type: entity
+  parent: [ OrganBaseLegRight, CC14OrganIPCExternal ]
+  id: CC14OrganIPCLegRight
+
+- type: entity
+  parent: [ OrganBaseFootLeft, CC14OrganIPCExternal ]
+  id: CC14OrganIPCFootLeft
+
+- type: entity
+  parent: [ OrganBaseFootRight, CC14OrganIPCExternal ]
+  id: CC14OrganIPCFootRight
