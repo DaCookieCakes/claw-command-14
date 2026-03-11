@@ -6,8 +6,6 @@
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fennec
-    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: fennec-tip
 
 - type: marking
   id: VulpTailFluffyNew
@@ -16,8 +14,6 @@
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fluffy
-    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/tail_markings.rsi
-      state: fluffy-tip
 
 - type: marking
   id: VulpTailHuskyNew

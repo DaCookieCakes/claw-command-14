@@ -5,7 +5,7 @@
   markingCategory: Snout
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: vulpine-lines-white
 
 - type: marking
@@ -14,7 +14,7 @@
   markingCategory: Snout
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: vulpine
-    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: vulpine-lines-white

@@ -224,12 +224,3 @@
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/facial_hair.rsi
       state: kita
-
-- type: marking
-  id: VulpFacialHairGoateeNew
-  bodyPart: FacialHair
-  groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
-  canBeDisplaced: false
-  sprites:
-  - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/facial_hair.rsi
-    state: goatee
