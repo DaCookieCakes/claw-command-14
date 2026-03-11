@@ -3,7 +3,7 @@
 - type: marking
   id: VulpTailFennec
   bodyPart: Tail
-  groupWhitelist: [Reptilian, SlimePerson, IPC, Rodentia, Vulpkanin, Felinid, Tajaran, Human, Oni, Kitsune]
+  groupWhitelist: [Reptilian, SlimePerson, IPC, Rodentia, Vulpkanin, Felinid, Tajaran, Human, Oni, Kitsune, CC14MarkingsFelinid, CC14MarkingsKitsune]
   sprites:
     - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fennec
@@ -13,7 +13,7 @@
 - type: marking
   id: VulpTailFluffy
   bodyPart: Tail
-  groupWhitelist: [Reptilian, SlimePerson, IPC, Rodentia, Vulpkanin, Felinid, Tajaran, Human, Oni, Kitsune]
+  groupWhitelist: [Reptilian, SlimePerson, IPC, Rodentia, Vulpkanin, Felinid, Tajaran, Human, Oni, Kitsune, CC14MarkingsFelinid, CC14MarkingsKitsune]
   sprites:
     - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: fluffy
@@ -23,7 +23,7 @@
 - type: marking
   id: VulpTailHusky
   bodyPart: Tail
-  groupWhitelist: [Reptilian, SlimePerson, IPC, Rodentia, Vulpkanin, Felinid, Tajaran, Human, Oni, Kitsune]
+  groupWhitelist: [Reptilian, SlimePerson, IPC, Rodentia, Vulpkanin, Felinid, Tajaran, Human, Oni, Kitsune, CC14MarkingsFelinid, CC14MarkingsKitsune]
   sprites:
     - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: husky
@@ -35,7 +35,7 @@
 - type: marking
   id: VulpTailLong
   bodyPart: Tail
-  groupWhitelist: [Reptilian, SlimePerson, IPC, Rodentia, Vulpkanin, Felinid, Tajaran, Human, Oni, Kitsune]
+  groupWhitelist: [Reptilian, SlimePerson, IPC, Rodentia, Vulpkanin, Felinid, Tajaran, Human, Oni, Kitsune, CC14MarkingsFelinid, CC14MarkingsKitsune]
   sprites:
     - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: long
@@ -45,7 +45,7 @@
 - type: marking
   id: VulpTailVulp
   bodyPart: Tail
-  groupWhitelist: [Reptilian, SlimePerson, IPC, Rodentia, Vulpkanin, Felinid, Tajaran, Human, Oni, Kitsune]
+  groupWhitelist: [Reptilian, SlimePerson, IPC, Rodentia, Vulpkanin, Felinid, Tajaran, Human, Oni, Kitsune, CC14MarkingsFelinid, CC14MarkingsKitsune]
   sprites:
     - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp
@@ -55,7 +55,7 @@
 - type: marking
   id: VulpTailVulpFade
   bodyPart: Tail
-  groupWhitelist: [Reptilian, SlimePerson, IPC, Rodentia, Vulpkanin, Felinid, Tajaran, Human, Oni, Kitsune]
+  groupWhitelist: [Reptilian, SlimePerson, IPC, Rodentia, Vulpkanin, Felinid, Tajaran, Human, Oni, Kitsune, CC14MarkingsFelinid, CC14MarkingsKitsune]
   sprites:
     - sprite: Mobs/Customization/Vulpkanin/tail_markings.rsi
       state: vulp

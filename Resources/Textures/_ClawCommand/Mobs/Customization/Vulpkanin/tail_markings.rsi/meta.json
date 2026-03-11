@@ -8,6 +8,14 @@
     },
     "states": [
         {
+            "name": "corgi",
+            "directions": 4
+        },
+        {
+            "name": "dalmation",
+            "directions": 4
+        },
+        {
             "name": "vulp_alt",
             "directions": 4
         },
