@@ -1,25 +1,24 @@
-# Claw Command edited groupWhitelist
 # Body Markings (Chest)
 - type: marking
-  id: VulpBellyCrest
+  id: VulpBellyCrestNew
   bodyPart: Chest
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Human, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: belly_crest
 
 - type: marking
-  id: VulpBellyFull
+  id: VulpBellyFullNew
   bodyPart: Chest
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Human, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: belly_full
 
 - type: marking
-  id: VulpBellyFox
+  id: VulpBellyFoxNew
   bodyPart: Chest
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Human, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/body_markings.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/body_markings.rsi
       state: belly_fox

@@ -1,236 +1,235 @@
-# Claw Command edited groupWhitelist
 # Hairs
 - type: marking
-  id: VulpHairAdhara
+  id: VulpHairAdharaNew
   bodyPart: Hair
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   canBeDisplaced: false
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: adhara
 
 - type: marking
-  id: VulpHairAnita
+  id: VulpHairAnitaNew
   bodyPart: Hair
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   canBeDisplaced: false
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: anita
 
 - type: marking
-  id: VulpHairApollo
+  id: VulpHairApolloNew
   bodyPart: Hair
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   canBeDisplaced: false
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: apollo
 
 - type: marking
-  id: VulpHairBelle
+  id: VulpHairBelleNew
   bodyPart: Hair
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   canBeDisplaced: false
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: belle
 
 - type: marking
-  id: VulpHairBraided
+  id: VulpHairBraidedNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: braided
 
 - type: marking
-  id: VulpHairBun
+  id: VulpHairBunNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: bun
 
 - type: marking
-  id: VulpHairCleanCut
+  id: VulpHairCleanCutNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: clean_cut
 
 - type: marking
-  id: VulpHairCurl
+  id: VulpHairCurlNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: curl
 
 - type: marking
-  id: VulpHairHawk
+  id: VulpHairHawkNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: hawk
 
 - type: marking
-  id: VulpHairJagged
+  id: VulpHairJaggedNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: jagged
 
 - type: marking
-  id: VulpHairJeremy
+  id: VulpHairJeremyNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: jeremy
 
 - type: marking
-  id: VulpHairKajam
+  id: VulpHairKajamNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: kajam
 
 - type: marking
-  id: VulpHairKeid
+  id: VulpHairKeidNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: keid
 
 - type: marking
-  id: VulpHairKleeia
+  id: VulpHairKleeiaNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: kleeia
 
 - type: marking
-  id: VulpHairMizar
+  id: VulpHairMizarNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: mizar
 
 - type: marking
-  id: VulpHairPunkBraided
+  id: VulpHairPunkBraidedNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: punkbraided
 
 - type: marking
-  id: VulpHairRaine
+  id: VulpHairRaineNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: raine
 
 - type: marking
-  id: VulpHairRough
+  id: VulpHairRoughNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: rough
 
 - type: marking
-  id: VulpHairShort
+  id: VulpHairShortNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: short
 
 - type: marking
-  id: VulpHairShort2
+  id: VulpHairShort2New
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: short2
 
 - type: marking
-  id: VulpHairSpike
+  id: VulpHairSpikeNew
   bodyPart: Hair
   canBeDisplaced: false
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/hair.rsi
       state: spike
 
 # Facial Hairs
 - type: marking
-  id: VulpFacialHairRuff
+  id: VulpFacialHairRuffNew
   bodyPart: FacialHair
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   canBeDisplaced: false
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/facial_hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/facial_hair.rsi
       state: ruff
 
 - type: marking
-  id: VulpFacialHairElder
+  id: VulpFacialHairElderNew
   bodyPart: FacialHair
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   canBeDisplaced: false
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/facial_hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/facial_hair.rsi
       state: elder
 
 - type: marking
-  id: VulpFacialHairElderChin
+  id: VulpFacialHairElderChinNew
   bodyPart: FacialHair
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   canBeDisplaced: false
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/facial_hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/facial_hair.rsi
       state: elder_chin
 
 - type: marking
-  id: VulpFacialHairKita
+  id: VulpFacialHairKitaNew
   bodyPart: FacialHair
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   canBeDisplaced: false
   sprites:
-    - sprite: Mobs/Customization/Vulpkanin/facial_hair.rsi
+    - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/facial_hair.rsi
       state: kita
 
 - type: marking
-  id: VulpFacialHairGoatee
+  id: VulpFacialHairGoateeNew
   bodyPart: FacialHair
   groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
   canBeDisplaced: false
   sprites:
-  - sprite: Mobs/Customization/Vulpkanin/facial_hair.rsi
+  - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/facial_hair.rsi
     state: goatee
