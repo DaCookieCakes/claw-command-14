@@ -159,9 +159,9 @@
   - type: Gun
     fireRate: 4
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/heavy_shot_suppressed.ogg #Claw Command
+      path: /Audio/Weapons/Guns/Gunshots/heavy_shot_suppressed.ogg # Claw Command
       params:
-        volume: -8 #Claw Command
+        volume: -8 # Claw Command
     availableModes:
     - SemiAuto
   - type: ItemSlots
