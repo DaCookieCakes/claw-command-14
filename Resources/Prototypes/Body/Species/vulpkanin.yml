@@ -92,11 +92,11 @@
   - type: Inventory
     speciesId: vulpkanin
     displacements:
-      jumpsuit:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: jumpsuit
+      #jumpsuit:
+      #  sizeMaps:
+      #    32:
+      #      sprite: Mobs/Species/Vulpkanin/displacement.rsi
+      #      state: jumpsuit
       back:
         sizeMaps:
           32:
@@ -112,21 +112,21 @@
           32:
             sprite: Mobs/Species/Vulpkanin/displacement.rsi
             state: hand
-      shoes:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: shoes
-      head:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: head
-      neck:
-        sizeMaps:
-          32:
-            sprite: Mobs/Species/Vulpkanin/displacement.rsi
-            state: neck
+      #shoes:
+      #  sizeMaps:
+      #    32:
+      #      sprite: Mobs/Species/Vulpkanin/displacement.rsi
+      #      state: shoes
+      #head:
+      #  sizeMaps:
+      #    32:
+      #      sprite: Mobs/Species/Vulpkanin/displacement.rsi
+      #      state: head
+      #neck:
+      #  sizeMaps:
+      #    32:
+      #      sprite: Mobs/Species/Vulpkanin/displacement.rsi
+      #      state: neck
       eyes:
         sizeMaps:
           32:
