@@ -1,0 +1,60 @@
+# Heads
+- type: marking
+  id: CC14IPCHeadHuman
+  bodyPart: Head
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Head # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: head_f
+
+- type: marking
+  id: CC14IPCHeadMoth
+  bodyPart: Head
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Head # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Moth/parts.rsi
+    state: head
+
+- type: marking
+  id: CC14IPCHeadReptilian
+  bodyPart: Head
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Head # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: head_f
+
+- type: marking
+  id: CC14IPCHeadVox
+  bodyPart: Head
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Head # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vox/parts.rsi
+    state: head
+
+- type: marking
+  id: CC14IPCHeadVulpkanin
+  bodyPart: Head
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Head # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: head
+
+- type: marking
+  id: CC14IPCHeadFeroxi
+  bodyPart: Head
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Head # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: _DeltaV/Mobs/Species/Feroxi/parts.rsi
+    state: head_f

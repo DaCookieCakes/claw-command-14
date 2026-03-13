@@ -78,7 +78,7 @@ marking-CC14IPCScreenLoading = Loading
 marking-CC14IPCScreenLoading-ipc_screen_loading = Loading
 
 marking-CC14IPCScreenMonoEye = Mono Eye
-marking-CC14IPCScreenMonoEye-ipc_screen_monoeye
+marking-CC14IPCScreenMonoEye-ipc_screen_monoeye = Mono Eye
 
 marking-CC14IPCScreenNature = Nature
 marking-CC14IPCScreenNature-ipc_screen_nature = Nature

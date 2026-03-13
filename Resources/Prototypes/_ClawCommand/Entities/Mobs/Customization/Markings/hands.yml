@@ -1,7 +1,7 @@
 - type: marking
   id: CC14LHandNails
   bodyPart: LHand
-  groupWhitelist: [ Human ]
+  groupWhitelist: [ Human, CC14MarkingsIPC ]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/hands.rsi
       state: l_nails
@@ -9,7 +9,7 @@
 - type: marking
   id: CC14RHandNails
   bodyPart: RHand
-  groupWhitelist: [ Human ]
+  groupWhitelist: [ Human, CC14MarkingsIPC ]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/hands.rsi
       state: r_nails

@@ -1,0 +1,382 @@
+# Antenna
+- type: marking
+  id: CC14IPCAntennaAntlers
+  bodyPart: HeadTop
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/antenna.rsi
+    state: ipc_antenna_antlers
+
+- type: marking
+  id: CC14IPCAntennaCrowned
+  bodyPart: HeadTop
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/antenna.rsi
+    state: ipc_antenna_crowned
+
+- type: marking
+  id: CC14IPCAntennaCyberHead
+  bodyPart: HeadTop
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/antenna.rsi
+    state: ipc_antenna_cyberhead
+
+- type: marking
+  id: CC14IPCAntennaDroneEyes
+  bodyPart: HeadTop
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/antenna.rsi
+    state: ipc_antenna_droneeyes
+
+- type: marking
+  id: CC14IPCAntennaLight
+  bodyPart: HeadTop
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/antenna.rsi
+    state: ipc_antenna_light
+    shader: unshaded
+  - sprite: _DeltaV/Mobs/Customization/IPC/antenna.rsi
+    state: ipc_antenna_lightb
+    shader: unshaded
+
+- type: marking
+  id: CC14IPCAntennaSideLights
+  bodyPart: HeadSide
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/antenna.rsi
+    state: ipc_antenna_sidelights
+    shader: unshaded
+
+- type: marking
+  id: CC14IPCAntennaTesla
+  bodyPart: HeadTop
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/antenna.rsi
+    state: ipc_antenna_tesla
+
+- type: marking
+  id: CC14IPCAntennaTowers
+  bodyPart: HeadTop
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/antenna.rsi
+    state: ipc_antenna_towers
+
+- type: marking
+  id: CC14IPCAntennaTV
+  bodyPart: HeadTop
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/antenna.rsi
+    state: ipc_antenna_tv
+
+# Screens
+- type: marking
+  id: CC14IPCScreenBlank
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_blank
+
+- type: marking
+  id: CC14IPCScreenBlue
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_blue
+
+- type: marking
+  id: CC14IPCScreenBreakout
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_breakout
+
+- type: marking
+  id: CC14IPCScreenBSOD
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_bsod
+
+- type: marking
+  id: CC14IPCScreenConsole
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_console
+
+- type: marking
+  id: CC14IPCScreenEight
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_eight
+
+- type: marking
+  id: CC14IPCScreenExclaim
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_exclaim
+
+- type: marking
+  id: CC14IPCScreenEyes
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_eyes
+
+- type: marking
+  id: CC14IPCScreenEyesAngry
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_eyesangry
+
+- type: marking
+  id: CC14IPCScreenEyesTall
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_eyestall
+
+- type: marking
+  id: CC14IPCScreenFrown
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_frown
+
+- type: marking
+  id: CC14IPCScreenGlider
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_glider
+
+- type: marking
+  id: CC14IPCScreenGoggles
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_goggles
+
+- type: marking
+  id: CC14IPCScreenHeart
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_heart
+
+- type: marking
+  id: CC14IPCScreenL
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_l
+
+- type: marking
+  id: CC14IPCScreenLoading
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_loading
+
+- type: marking
+  id: CC14IPCScreenMonoEye
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_monoeye
+
+- type: marking
+  id: CC14IPCScreenNature
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_nature
+
+- type: marking
+  id: CC14IPCScreenOrange
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_orange
+
+- type: marking
+  id: CC14IPCScreenPink
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_pink
+
+- type: marking
+  id: CC14IPCScreenQuestion
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_question
+
+- type: marking
+  id: CC14IPCScreenRainbowDiagonal
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_rainbowdiag
+
+- type: marking
+  id: CC14IPCScreenRainbowHorizontal
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_rainbowhoriz
+
+- type: marking
+  id: CC14IPCScreenRedText
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_redtext
+
+- type: marking
+  id: CC14IPCScreenRGB
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_rgb
+
+- type: marking
+  id: CC14IPCScreenRing
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_ring
+
+- type: marking
+  id: CC14IPCScreenScroll
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_scroll
+
+- type: marking
+  id: CC14IPCScreenShower
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_shower
+
+- type: marking
+  id: CC14IPCScreenSineWave
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_sinewave
+
+- type: marking
+  id: CC14IPCScreenSquareWave
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_squarewave
+
+- type: marking
+  id: CC14IPCScreenSmile
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_smile
+
+- type: marking
+  id: CC14IPCScreenStars
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_stars
+
+- type: marking
+  id: CC14IPCScreenStatic
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_static
+
+- type: marking
+  id: CC14IPCScreenTetris
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_tetris
+
+- type: marking
+  id: CC14IPCScreenTextDrop
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_textdrop
+
+- type: marking
+  id: CC14IPCScreenTV
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_tv
+
+- type: marking
+  id: CC14IPCScreenWindowsXP
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_windowsxp
+
+- type: marking
+  id: CC14IPCScreenYellow
+  bodyPart: FacialHair
+  groupWhitelist: [ CC14MarkingsIPC ]
+  sprites:
+  - sprite: _DeltaV/Mobs/Customization/IPC/screens.rsi
+    state: ipc_screen_yellow

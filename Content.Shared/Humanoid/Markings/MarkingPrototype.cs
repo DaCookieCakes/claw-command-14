@@ -50,6 +50,13 @@ namespace Content.Shared.Humanoid.Markings
         [DataField]
         public ProtoId<MarkingPrototype>? Requires { get; private set; }
 
+        /// <summary>
+        ///     CLAW COMMAND 14
+        ///     Allows replacing a body part with the marking.
+        /// </summary>
+        [DataField]
+        public HumanoidVisualLayers? Replaces { get; private set; }
+
         public Marking AsMarking()
         {
             return new Marking(ID, Sprites.Count);

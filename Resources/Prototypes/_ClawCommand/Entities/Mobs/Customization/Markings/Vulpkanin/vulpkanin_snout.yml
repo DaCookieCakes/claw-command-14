@@ -3,7 +3,7 @@
   id: VulpSnoutSwiftWhite
   bodyPart: Snout
   markingCategory: Snout
-  groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
+  groupWhitelist: [Vulpkanin, SlimePerson, CC14MarkingsKitsune, CC14MarkingsIPC]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: vulpine-lines-white
@@ -12,7 +12,7 @@
   id: VulpSnoutVulpineWhite
   bodyPart: Snout
   markingCategory: Snout
-  groupWhitelist: [Vulpkanin, SlimePerson, IPC, Kitsune]
+  groupWhitelist: [Vulpkanin, SlimePerson, CC14MarkingsKitsune, CC14MarkingsIPC]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/head_markings.rsi
       state: vulpine

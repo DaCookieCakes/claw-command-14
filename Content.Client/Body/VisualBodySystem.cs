@@ -235,6 +235,9 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
 
             var offset = layerOffsets.GetValueOrDefault(proto.BodyPart, 0);
 
+            if (proto.Replaces.HasValue && _sprite.LayerMapTryGet(target, proto.Replaces.Value, out var replacedIndex, false))
+                _sprite.LayerSetVisible(target, replacedIndex, false);
+
             for (var i = 0; i < proto.Sprites.Count; i++)
             {
                 var sprite = proto.Sprites[i];
@@ -273,6 +276,11 @@ public sealed class VisualBodySystem : SharedVisualBodySystem
         {
             if (!_marking.TryGetMarking(marking, out var proto))
                 continue;
+
+            // CLAW COMMAND 14 //
+            // Re-enable marking-hidden layers if a replacement marking is disabled.
+            if (proto.Replaces.HasValue && _sprite.LayerMapTryGet(target, proto.Replaces.Value, out var replacedIndex, false))
+                _sprite.LayerSetVisible(target, replacedIndex, true);
 
             foreach (var sprite in proto.Sprites)
             {

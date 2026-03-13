@@ -1,0 +1,241 @@
+# Arms
+- type: marking
+  id: CC14IPCLeftArmHuman
+  bodyPart: LArm
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LArm # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: l_arm
+
+- type: marking
+  id: CC14IPCRightArmHuman
+  bodyPart: RArm
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RArm # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: r_arm
+
+- type: marking
+  id: CC14IPCLeftArmMoth
+  bodyPart: LArm
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LArm # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Moth/parts.rsi
+    state: l_arm
+
+- type: marking
+  id: CC14IPCRightArmMoth
+  bodyPart: RArm
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RArm # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Moth/parts.rsi
+    state: r_arm
+
+- type: marking
+  id: CC14IPCLeftArmReptilian
+  bodyPart: LArm
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LArm # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: l_arm
+
+- type: marking
+  id: CC14IPCRightArmReptilian
+  bodyPart: RArm
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RArm # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: r_arm
+
+- type: marking
+  id: CC14IPCLeftArmVox
+  bodyPart: LArm
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LArm # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vox/parts.rsi
+    state: l_arm
+
+- type: marking
+  id: CC14IPCRightArmVox
+  bodyPart: RArm
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RArm # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vox/parts.rsi
+    state: r_arm
+
+- type: marking
+  id: CC14IPCLeftArmVulpkanin
+  bodyPart: LArm
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LArm # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: l_arm
+
+- type: marking
+  id: CC14IPCRightArmVulpkanin
+  bodyPart: RArm
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RArm # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: r_arm
+
+- type: marking
+  id: CC14IPCLeftArmFeroxi
+  bodyPart: LArm
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LArm # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: _DeltaV/Mobs/Species/Feroxi/parts.rsi
+    state: l_arm
+
+- type: marking
+  id: CC14IPCRightArmFeroxi
+  bodyPart: RArm
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RArm # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: _DeltaV/Mobs/Species/Feroxi/parts.rsi
+    state: r_arm
+
+# Hands
+- type: marking
+  id: CC14IPCLeftHandHuman
+  bodyPart: LHand
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LHand # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: l_hand
+
+- type: marking
+  id: CC14IPCRightHandHuman
+  bodyPart: RHand
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RHand # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: r_hand
+
+- type: marking
+  id: CC14IPCLeftHandMoth
+  bodyPart: LHand
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LHand # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Moth/parts.rsi
+    state: l_hand
+
+- type: marking
+  id: CC14IPCRightHandMoth
+  bodyPart: RHand
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RHand # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Moth/parts.rsi
+    state: r_hand
+
+- type: marking
+  id: CC14IPCLeftHandReptilian
+  bodyPart: LHand
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LHand # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: l_hand
+
+- type: marking
+  id: CC14IPCRightHandReptilian
+  bodyPart: RHand
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RHand # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: r_hand
+
+- type: marking
+  id: CC14IPCLeftHandVox
+  bodyPart: LHand
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LHand # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vox/parts.rsi
+    state: l_hand
+
+- type: marking
+  id: CC14IPCRightHandVox
+  bodyPart: RHand
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RHand # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vox/parts.rsi
+    state: r_hand
+
+- type: marking
+  id: CC14IPCLeftHandVulpkanin
+  bodyPart: LHand
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LHand # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: l_hand
+
+- type: marking
+  id: CC14IPCRightHandVulpkanin
+  bodyPart: RHand
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RHand # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: r_hand
+
+- type: marking
+  id: CC14IPCLeftHandFeroxi
+  bodyPart: LHand
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LHand # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: _DeltaV/Mobs/Species/Feroxi/parts.rsi
+    state: l_hand
+
+- type: marking
+  id: CC14IPCRightHandFeroxi
+  bodyPart: RHand
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RHand # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: _DeltaV/Mobs/Species/Feroxi/parts.rsi
+    state: r_hand

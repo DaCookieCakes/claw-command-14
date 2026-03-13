@@ -1,7 +1,7 @@
 - type: marking
   id: CC14BlushCheeks
   bodyPart: Head
-  groupWhitelist: [ Human, Reptilian, Slime, CC14MarkingsFelinid, CC14MarkingsKitsune, CC14MarkingsFeroxi, Vulpkanin ]
+  groupWhitelist: [ Human, Reptilian, Slime, Vulpkanin, CC14MarkingsFelinid, CC14MarkingsKitsune, CC14MarkingsFeroxi, CC14MarkingsIPC ]
   sprites:
   - sprite: _ClawCommand/Mobs/Customization/face.rsi
     state: blush
@@ -14,7 +14,7 @@
 - type: marking
   id: CC14BlushLong
   bodyPart: Head
-  groupWhitelist: [ Human, Reptilian, Slime, CC14MarkingsFelinid, CC14MarkingsKitsune, CC14MarkingsFeroxi, Vulpkanin ]
+  groupWhitelist: [ Human, Reptilian, Slime, Vulpkanin, CC14MarkingsFelinid, CC14MarkingsKitsune, CC14MarkingsFeroxi, CC14MarkingsIPC ]
   sprites:
   - sprite: _ClawCommand/Mobs/Customization/face.rsi
     state: blush_long

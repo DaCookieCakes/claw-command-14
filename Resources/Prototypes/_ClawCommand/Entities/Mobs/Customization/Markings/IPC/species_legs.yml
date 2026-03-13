@@ -1,0 +1,241 @@
+# Legs
+- type: marking
+  id: CC14IPCLeftLegHuman
+  bodyPart: LLeg
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LLeg # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: l_leg
+
+- type: marking
+  id: CC14IPCRightLegHuman
+  bodyPart: RLeg
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RLeg # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: r_leg
+
+- type: marking
+  id: CC14IPCLeftLegMoth
+  bodyPart: LLeg
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LLeg # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Moth/parts.rsi
+    state: l_leg
+
+- type: marking
+  id: CC14IPCRightLegMoth
+  bodyPart: RLeg
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RLeg # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Moth/parts.rsi
+    state: r_leg
+
+- type: marking
+  id: CC14IPCLeftLegReptilian
+  bodyPart: LLeg
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LLeg # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: l_leg
+
+- type: marking
+  id: CC14IPCRightLegReptilian
+  bodyPart: RLeg
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RLeg # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: r_leg
+
+- type: marking
+  id: CC14IPCLeftLegVox
+  bodyPart: LLeg
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LLeg # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vox/parts.rsi
+    state: l_leg
+
+- type: marking
+  id: CC14IPCRightLegVox
+  bodyPart: RLeg
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RLeg # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vox/parts.rsi
+    state: r_leg
+
+- type: marking
+  id: CC14IPCLeftLegVulpkanin
+  bodyPart: LLeg
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LLeg # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: l_leg
+
+- type: marking
+  id: CC14IPCRightLegVulpkanin
+  bodyPart: RLeg
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RLeg # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: r_leg
+
+- type: marking
+  id: CC14IPCLeftLegFeroxi
+  bodyPart: LLeg
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LLeg # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: _DeltaV/Mobs/Species/Feroxi/parts.rsi
+    state: l_leg
+
+- type: marking
+  id: CC14IPCRightLegFeroxi
+  bodyPart: RLeg
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RLeg # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: _DeltaV/Mobs/Species/Feroxi/parts.rsi
+    state: r_leg
+
+# Feet
+- type: marking
+  id: CC14IPCLeftFootHuman
+  bodyPart: LFoot
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LFoot # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: l_foot
+
+- type: marking
+  id: CC14IPCRightFootHuman
+  bodyPart: RFoot
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RFoot # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: r_foot
+
+- type: marking
+  id: CC14IPCLeftFootMoth
+  bodyPart: LFoot
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LFoot # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Moth/parts.rsi
+    state: l_foot
+
+- type: marking
+  id: CC14IPCRightFootMoth
+  bodyPart: RFoot
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RFoot # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Moth/parts.rsi
+    state: r_foot
+
+- type: marking
+  id: CC14IPCLeftFootReptilian
+  bodyPart: LFoot
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LFoot # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: l_foot
+
+- type: marking
+  id: CC14IPCRightFootReptilian
+  bodyPart: RFoot
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RFoot # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: r_foot
+
+- type: marking
+  id: CC14IPCLeftFootVox
+  bodyPart: LFoot
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LFoot # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vox/parts.rsi
+    state: l_foot
+
+- type: marking
+  id: CC14IPCRightFootVox
+  bodyPart: RFoot
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RFoot # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vox/parts.rsi
+    state: r_foot
+
+- type: marking
+  id: CC14IPCLeftFootVulpkanin
+  bodyPart: LFoot
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LFoot # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: l_foot
+
+- type: marking
+  id: CC14IPCRightFootVulpkanin
+  bodyPart: RFoot
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RFoot # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: r_foot
+
+- type: marking
+  id: CC14IPCLeftFootFeroxi
+  bodyPart: LFoot
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: LFoot # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: _DeltaV/Mobs/Species/Feroxi/parts.rsi
+    state: l_foot
+
+- type: marking
+  id: CC14IPCRightFootFeroxi
+  bodyPart: RFoot
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: RFoot # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: _DeltaV/Mobs/Species/Feroxi/parts.rsi
+    state: r_foot

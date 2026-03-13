@@ -1,0 +1,110 @@
+# Chests
+- type: marking
+  id: CC14IPCChestHumanF
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Chest # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: torso_f
+
+- type: marking
+  id: CC14IPCChestHumanM
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Chest # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Human/parts.rsi
+    state: torso_m
+
+- type: marking
+  id: CC14IPCChestMothF
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Chest # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Moth/parts.rsi
+    state: torso_f
+
+- type: marking
+  id: CC14IPCChestMothM
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Chest # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Moth/parts.rsi
+    state: torso_m
+
+- type: marking
+  id: CC14IPCChestReptilianF
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Chest # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: torso_f
+
+- type: marking
+  id: CC14IPCChestReptilianM
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Chest # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Reptilian/parts.rsi
+    state: torso_m
+
+- type: marking
+  id: CC14IPCChestVox
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Chest # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vox/parts.rsi
+    state: torso
+
+- type: marking
+  id: CC14IPCChestVulpkaninF
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Chest # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: torso_f
+
+- type: marking
+  id: CC14IPCChestVulpkaninM
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Chest # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: Mobs/Species/Vulpkanin/parts.rsi
+    state: torso_m
+
+- type: marking
+  id: CC14IPCChestFeroxiF
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Chest # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: _DeltaV/Mobs/Species/Feroxi/parts.rsi
+    state: torso_f
+
+- type: marking
+  id: CC14IPCChestFeroxiM
+  bodyPart: Chest
+  groupWhitelist: [ CC14MarkingsIPC ]
+  replaces: Chest # New to CC14
+  sprites:
+  - type: Sprite
+    sprite: _DeltaV/Mobs/Species/Feroxi/parts.rsi
+    state: torso_m
