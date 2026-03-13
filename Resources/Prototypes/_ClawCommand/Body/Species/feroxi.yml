@@ -72,11 +72,11 @@
           32:
             sprite: Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female
-      head:
-        sizeMaps:
-          32:
-            sprite: _ClawCommand/Mobs/Species/Feroxi/displacement.rsi
-            state: head
+      #head:
+      #  sizeMaps:
+      #    32:
+      #      sprite: _ClawCommand/Mobs/Species/Feroxi/displacement.rsi
+      #      state: head
       mask:
         sizeMaps:
           32:
