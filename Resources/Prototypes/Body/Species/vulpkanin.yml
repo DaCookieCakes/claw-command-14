@@ -112,7 +112,7 @@
           32:
             sprite: Mobs/Species/Vulpkanin/displacement.rsi
             state: hand
-      #shoes:
+      #shoes: # Claw Command comment those out so our paradise station sprites dont clip through clothing or shoes. Also so ears appear over helmets for that extra cuteness.
       #  sizeMaps:
       #    32:
       #      sprite: Mobs/Species/Vulpkanin/displacement.rsi
