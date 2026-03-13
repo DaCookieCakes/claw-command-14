@@ -1,21 +1,20 @@
+using System.Linq;
 using Content.Server.Chat.Systems;
 using Content.Server.ClawCommand.Cabinet.Components;
 using Content.Server.ClawCommand.Cabinet.Events;
 using Content.Server.GameTicking;
 using Content.Server.Station.Components;
-using Content.Shared.Access.Components;
 using Content.Shared.Access;
+using Content.Shared.Access.Components;
 using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
-using System.Linq;
 
-namespace Content.Server.ClawCommand.Cabinet.Systems;
+namespace Content.Server._ClawCommand.Cabinet;
 
 public sealed class CaptainStateSystem : EntitySystem
 {
     [Dependency] private readonly ChatSystem _chat = default!;
     [Dependency] private readonly GameTicker _ticker = default!;
-    [Dependency] private readonly IConfigurationManager _cfg = default!;
 
     private bool _aaEnabled;
     private bool _acoOnDeparture;
@@ -132,6 +131,7 @@ public sealed class CaptainStateSystem : EntitySystem
                 var accesses = accessReader.AccessLists;
                 if (accesses.Count <= 0) // Avoid restricting access for readers with no accesses
                     continue;
+
                 // Awful and disgusting but the accessReader has no proper api for adding acceses to readers without awful type casting. See AccessOverriderSystem
                 accesses.Add(new HashSet<ProtoId<AccessLevelPrototype>> { captainState.ACOAccess });
                 Dirty(spareIDSafe, accessReader);

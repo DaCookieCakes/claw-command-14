@@ -1,9 +1,10 @@
+# TODO - CC14 - Vulpkanin, Human, SlimePerson, IPC, Oni, Harpy, Arachne, Rodentia, Kitsune , CC14MarkingsFelinid, CC14MarkingsKitsune
 
 # Ears Markings
 - type: marking
   id: VulpEarNew
   bodyPart: HeadTop
-  groupWhitelist: [Vulpkanin, Human, SlimePerson, IPC, Oni, Harpy, Arachne, Rodentia, Kitsune , CC14MarkingsFelinid, CC14MarkingsKitsune]
+  groupWhitelist: [ Vulpkanin, Human, Slime, CC14MarkingsFelinid, CC14MarkingsKitsune ]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp
@@ -13,7 +14,7 @@
 - type: marking
   id: VulpEarSharpNew
   bodyPart: HeadTop
-  groupWhitelist: [Vulpkanin, Human, SlimePerson, IPC, Oni, Harpy, Arachne, Rodentia, Kitsune , CC14MarkingsFelinid, CC14MarkingsKitsune]
+  groupWhitelist: [ Vulpkanin, Human, Slime, CC14MarkingsFelinid, CC14MarkingsKitsune ]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp
@@ -25,7 +26,7 @@
 - type: marking
   id: VulpEarFadeNew
   bodyPart: HeadTop
-  groupWhitelist: [Vulpkanin, Human, SlimePerson, IPC, Oni, Harpy, Arachne, Rodentia, Kitsune , CC14MarkingsFelinid, CC14MarkingsKitsune]
+  groupWhitelist: [ Vulpkanin, Human, Slime, CC14MarkingsFelinid, CC14MarkingsKitsune ]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: vulp
@@ -37,7 +38,7 @@
 - type: marking
   id: VulpEarJackalNew
   bodyPart: HeadTop
-  groupWhitelist: [Vulpkanin, Human, SlimePerson, IPC, Oni, Harpy, Arachne, Rodentia, Kitsune , CC14MarkingsFelinid, CC14MarkingsKitsune]
+  groupWhitelist: [ Vulpkanin, Human, Slime, CC14MarkingsFelinid, CC14MarkingsKitsune ]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: jackal
@@ -47,7 +48,7 @@
 - type: marking
   id: VulpEarTerrierNew
   bodyPart: HeadTop
-  groupWhitelist: [Vulpkanin, Human, SlimePerson, IPC, Oni, Harpy, Arachne, Rodentia, Kitsune , CC14MarkingsFelinid, CC14MarkingsKitsune]
+  groupWhitelist: [ Vulpkanin, Human, Slime, CC14MarkingsFelinid, CC14MarkingsKitsune ]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: terrier
@@ -57,7 +58,7 @@
 - type: marking
   id: VulpEarFennecNew
   bodyPart: HeadTop
-  groupWhitelist: [Vulpkanin, Human, SlimePerson, IPC, Oni, Harpy, Arachne, Rodentia, Kitsune , CC14MarkingsFelinid, CC14MarkingsKitsune]
+  groupWhitelist: [ Vulpkanin, Human, Slime, CC14MarkingsFelinid, CC14MarkingsKitsune ]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: fennec
@@ -67,7 +68,7 @@
 - type: marking
   id: VulpEarFoxNew
   bodyPart: HeadTop
-  groupWhitelist: [Vulpkanin, Human, SlimePerson, IPC, Oni, Harpy, Arachne, Rodentia, Kitsune , CC14MarkingsFelinid, CC14MarkingsKitsune]
+  groupWhitelist: [ Vulpkanin, Human, Slime, CC14MarkingsFelinid, CC14MarkingsKitsune ]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: fox
@@ -77,7 +78,7 @@
 - type: marking
   id: VulpEarOtieNew
   bodyPart: HeadTop
-  groupWhitelist: [Vulpkanin, Human, SlimePerson, IPC, Oni, Harpy, Arachne, Rodentia, Kitsune , CC14MarkingsFelinid, CC14MarkingsKitsune]
+  groupWhitelist: [ Vulpkanin, Human, Slime, CC14MarkingsFelinid, CC14MarkingsKitsune ]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: otie
@@ -87,7 +88,7 @@
 - type: marking
   id: VulpEarShockNew
   bodyPart: HeadTop
-  groupWhitelist: [Vulpkanin, Human, SlimePerson, IPC, Oni, Harpy, Arachne, Rodentia, Kitsune , CC14MarkingsFelinid, CC14MarkingsKitsune]
+  groupWhitelist: [ Vulpkanin, Human, Slime, CC14MarkingsFelinid, CC14MarkingsKitsune ]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: shock
@@ -95,7 +96,7 @@
 - type: marking
   id: VulpEarCoyoteNew
   bodyPart: HeadTop
-  groupWhitelist: [Vulpkanin, Human, SlimePerson, IPC, Oni, Harpy, Arachne, Rodentia, Kitsune , CC14MarkingsFelinid, CC14MarkingsKitsune]
+  groupWhitelist: [ Vulpkanin, Human, Slime, CC14MarkingsFelinid, CC14MarkingsKitsune ]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: coyote
@@ -103,7 +104,7 @@
 - type: marking
   id: VulpEarMsai
   bodyPart: HeadTop
-  groupWhitelist: [Vulpkanin, Human, SlimePerson, IPC, Oni, Harpy, Arachne, Rodentia, Kitsune , CC14MarkingsFelinid, CC14MarkingsKitsune]
+  groupWhitelist: [ Vulpkanin, Human, Slime, CC14MarkingsFelinid, CC14MarkingsKitsune ]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: msai
@@ -113,7 +114,7 @@
 - type: marking
   id: VulpEarWolf
   bodyPart: HeadTop
-  groupWhitelist: [Vulpkanin, Human, SlimePerson, IPC, Oni, Harpy, Arachne, Rodentia, Kitsune , CC14MarkingsFelinid, CC14MarkingsKitsune]
+  groupWhitelist: [ Vulpkanin, Human, Slime, CC14MarkingsFelinid, CC14MarkingsKitsune ]
   sprites:
     - sprite: _ClawCommand/Mobs/Customization/Vulpkanin/ear_markings.rsi
       state: wolf
