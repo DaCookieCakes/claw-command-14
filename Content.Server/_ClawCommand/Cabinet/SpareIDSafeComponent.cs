@@ -1,4 +1,4 @@
-namespace Content.Server.ClawCommand.Cabinet.Components;
+namespace Content.Server._ClawCommand.Cabinet;
 
 [RegisterComponent]
 public sealed partial class SpareIDSafeComponent : Component;

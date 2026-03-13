@@ -206,10 +206,10 @@
         type:
           !type:CategoryColoring
           category: Hair
-          fallbackTypes:
-          - !type:CategoryColoring
-            category: FacialHair
-          - !type:SkinColoring
+        fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
   sprites:
   - sprite: _ClawCommand/Mobs/Customization/cat_parts.rsi
     state: tail_bell

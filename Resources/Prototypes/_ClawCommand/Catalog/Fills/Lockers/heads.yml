@@ -11,6 +11,7 @@
     - id: ClothingHandsGlovesCombat
     # - id: WeaponLeverChester
     # - id: WeaponEnergyRevolver
+    - id: TrackingImplanter
 
 - type: entity
   parent: LockerClawCommandMaid
@@ -26,3 +27,4 @@
     # - id: WeaponLeverChester
     # - id: WeaponEnergyRevolver
     - id: CC14WeaponMeleeKatana
+    - id: TrackingImplanter

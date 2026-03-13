@@ -1,4 +1,4 @@
-using Content.Server.ClawCommand.Cabinet.Systems;
+using Content.Server._ClawCommand.Cabinet;
 using Content.Server.Station.Systems;
 using Content.Shared.Access;
 using Robust.Shared.Prototypes;
