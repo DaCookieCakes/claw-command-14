@@ -158,7 +158,7 @@
     - dm
   name: death-match-title
   description: death-match-description
-  maxPlayers: 15
+  maxPlayers: 7
   showInVote: true
   supportedMaps: DeathMatchMapPool
   rules:

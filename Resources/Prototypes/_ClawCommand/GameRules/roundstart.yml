@@ -1,0 +1,44 @@
+# More likely to go down than up, so calmness prevails
+- type: entity
+  id: IrregularExtendedStationEventScheduler
+  parent: BaseGameRule
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: RampingStationEventScheduler
+    AverageChaos: 6
+    MaxChaos: 8
+    #minChaos: 0.8
+    #maxChaos: 8
+    #startingSlope: -1
+    #downwardsLimit: -0.4
+    #upwardsLimit: 0.3
+    scheduledGameRules: !type:NestedSelector
+      tableId: DynamicGameRulesTable
+
+- type: entity
+  id: IrregularStationEventScheduler
+  parent: BaseGameRule
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: RampingStationEventScheduler
+    AverageChaos: 7
+    MaxChaos: 14
+    #minChaos: 0.8
+    #maxChaos: 14
+    #startingSlope: 0.2
+    #downwardsLimit: -0.35
+    #upwardsLimit: 0.4
+    scheduledGameRules: !type:NestedSelector
+      tableId: BasicGameRulesTable
+
+- type: entity
+  id: HellshiftStationEventScheduler
+  parent: BaseGameRule
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: RampingStationEventScheduler
+    AverageChaos: 20
+    StartingChaos: 6
+    #shiftLengthModifier: 2.5
+    scheduledGameRules: !type:NestedSelector
+      tableId: BasicGameRulesTable
