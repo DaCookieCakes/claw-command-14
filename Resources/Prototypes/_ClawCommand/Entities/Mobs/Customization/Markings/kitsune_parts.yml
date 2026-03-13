@@ -27,18 +27,18 @@
         type:
           !type:CategoryColoring
           category: Hair
-          fallbackTypes:
-          - !type:CategoryColoring
-            category: FacialHair
-          - !type:SkinColoring
+        fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
       kitsune_fluffy_fluff:
         type:
           !type:CategoryColoring
           category: Hair
-          fallbackTypes:
-          - !type:CategoryColoring
-            category: FacialHair
-          - !type:SkinColoring
+        fallbackTypes:
+        - !type:CategoryColoring
+          category: FacialHair
+        - !type:SkinColoring
   sprites:
   - sprite: _DeltaV/Mobs/Customization/Kitsunes/ears.rsi
     state: kitsune_fluffy_ears
